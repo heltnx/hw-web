@@ -1,5 +1,5 @@
 /* Header.css */
-.container {
+.header-component .container {
     width: 60%;
     display: flex;
     justify-content: space-between;
@@ -8,9 +8,9 @@
 }
 
 .header {
+    position: relative;
     background: #ffffff;
     padding: 15px 0;
-
 }
 
 
@@ -70,7 +70,7 @@
 }
 
 .nav a.active {
-    color: #EACC9C;
+    color: #70829d;
 }
 
 .nav a:hover {
@@ -78,8 +78,10 @@
 }
 
 .menu-icon {
+    position: relative;
     display: none;
     cursor: pointer;
+    z-index: 2;
 }
 
 .bar {
@@ -95,11 +97,13 @@
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 60px;
-        right: 0;
-        background: #4B5E6C;
-        width: 100%;
+        top: 50px;
+        right: 70px;
+        background: #ACC3D8;
+        width: 50%;
         padding: 20px;
+        text-align: center;
+        border-radius: 5px
     }
 
     .nav li {
@@ -107,7 +111,11 @@
     }
 
     .nav a {
-        color: #F3E8D6;
+        color: white;
+    }
+
+    .nav a:hover {
+        color: #7A8EA1;
     }
 
     .menu-open .nav ul {

@@ -13,7 +13,7 @@ const Header = () => {
     };
 
     return (
-        <div>
+        <div className='header-component'>
             <div className="header-divider"></div>
             <header className={`header ${isMenuOpen ? 'menu-open' : ''}`}>
                 <div className="container">
@@ -30,11 +30,11 @@ const Header = () => {
                             <li><NavLink to="/" exact activeClassName="active">Accueil</NavLink></li>
                             <li><NavLink to="/realisations" activeClassName="active">Réalisations</NavLink></li>
                             <li><NavLink to="/competences" activeClassName="active">Compétences</NavLink></li>
-                            <li>
-                                <Button>
-                                    <NavLink to="/contact" className="nav-link" activeClassName="active">Contact</NavLink>
-                                </Button>
-                            </li>
+
+                            <Button>
+                                <NavLink to="/contact" activeClassName="active">Contact</NavLink>
+                            </Button>
+
                         </ul>
                     </nav>
                 </div>

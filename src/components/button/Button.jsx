@@ -3,10 +3,10 @@
 import React from 'react';
 import './button.css';
 
-const Button = ({ onClick, label }) => {
+const Button = ({ children }) => {
     return (
-        <button className="custom-button" onClick={onClick}>
-            {label}
+        <button className="custom-button">
+            {children}
         </button>
     );
 };
