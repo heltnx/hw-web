@@ -1,6 +1,6 @@
 /* Header.css */
 .header-component .container {
-    width: 60%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -65,7 +65,12 @@
 .nav a {
     text-decoration: none;
     color: #7A8EA1;
-    font-family: "Sitka Display bold italic", sans-serif;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-style: normal;
+    letter-spacing: 1px;
     transition: color 0.3s ease-in-out;
 }
 
@@ -74,7 +79,7 @@
 }
 
 .nav a:hover {
-    color: #EACC9C;
+    color: #e5b870;
 }
 
 .menu-icon {

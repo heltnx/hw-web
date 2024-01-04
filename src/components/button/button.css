@@ -8,14 +8,25 @@
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: -8px;
+}
+
+.custom-button a {
+    color: white;
+    text-decoration: none;
 }
 
 .custom-button:hover {
     background-color: #eacc9c;
-    color: #ffffff;
+    color: #8297a9;
 }
 
+.custom-button a:hover {
+    color: #697a89;
+}
+
+/*-----------mobile --768px--------*/
 @media only screen and (max-width: 768px) {
     .custom-button:hover {
         background-color: transparent;
