@@ -1,0 +1,132 @@
+/* Header.css */
+.container {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.header {
+    background: #ffffff;
+    padding: 15px 0;
+
+}
+
+
+.header-divider {
+    height: 28px;
+    background-color: #5B7283;
+    opacity: 0.8;
+    width: 100%;
+    background: linear-gradient(#080808, rgb(59, 97, 126), #A3C0DC);
+}
+
+.header-divider-bottom {
+    height: 20px;
+    background-color: #ACC3D8;
+    width: 100%;
+}
+
+.image-container {
+    height: 20px;
+    background-image: url('../../assets/icons/fond-1024x446.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.title {
+    font-family: "Sitka Display bold italic", sans-serif;
+    color: #F3E8D6;
+    margin: 0;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav li {
+    margin-right: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #7A8EA1;
+    font-family: "Sitka Display bold italic", sans-serif;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav a.active {
+    color: #EACC9C;
+}
+
+.nav a:hover {
+    color: #EACC9C;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #F3E8D6;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: #4B5E6C;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .nav li {
+        margin: 10px 0;
+    }
+
+    .nav a {
+        color: #F3E8D6;
+    }
+
+    .menu-open .nav ul {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .nav-open .menu-icon .bar:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .nav-open .menu-icon .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .nav-open .menu-icon .bar:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+}
