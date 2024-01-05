@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Sitka Display';
+    src: url('../../assets/font/Sitka.ttc') format('truetype');
+}
+
+
 body {
     margin: 0;
     font-family: 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,4 +17,47 @@ body {
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;
+}
+
+
+/*----------------*/
+
+.container {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: "Sitka Display", sans-serif;
+    color: #6B849A;
+    font-size: 52px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-style: italic;
+    letter-spacing: 0.6px;
+    text-shadow: 0px 6px 6px #FFFFFF;
+    background: linear-gradient(to bottom, #f2f6f9ba, #EACC9C);
+    margin-top: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 18%;
+}
+
+
+main {
+    height: 150vh;
+    background: linear-gradient(to bottom, #F2F6F9, #AEC4D8);
+    margin-top: 196px;
+}
+
+
+.image-container {
+    height: 22px;
+    background-image: url('../../assets/icons/fond-1024x446.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 196px;
 }
