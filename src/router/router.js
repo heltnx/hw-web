@@ -8,7 +8,7 @@ import Landing404 from '../pages/landing404/Landing404.jsx';
 
 const Router = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/hw-web'>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/realisations" element={<Realisations />} />

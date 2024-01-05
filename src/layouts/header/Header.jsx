@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './header.css';
+import Logo from '../../assets/icons/logo.png';
 import Button from '../../components/button/Button';
 
 
@@ -18,7 +19,7 @@ const Header = () => {
                 <div className="divider"></div>
                 <div className="container">
                     <div className="logo-container">
-                        <img src="logo.png" alt="Logo" className="logo" />
+                        <img src={Logo} alt="Logo" className="logo" />
                     </div>
 
                     <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
@@ -28,9 +29,9 @@ const Header = () => {
                             <div className="bar"></div>
                         </div>
                         <ul>
-                            <li><NavLink to="/" exact activeclassName="active">Accueil</NavLink></li>
-                            <li><NavLink to="/realisations" activeclassName="active">Réalisations</NavLink></li>
-                            <li><NavLink to="/competences" activeclassName="active">Compétences</NavLink></li>
+                            <li><NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')}>Accueil</NavLink></li>
+                            <li><NavLink to="/realisations" className={({ isActive }) => (isActive ? 'active' : '')}>Réalisations</NavLink></li>
+                            <li><NavLink to="/competences" className={({ isActive }) => (isActive ? 'active' : '')}>Compétences</NavLink></li>
 
                             <Button>
                                 <NavLink to="/contact" >Contact</NavLink>

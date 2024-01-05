@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Sitka';
-    src: url('../../assets/font/sitka-small-599.ttf') format('truetype');
+    src: local("Sitka Display"), url('../font/Sitka.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('../../assets/font/Montserrat-Regular.ttf') format('truetype');
+    src: url('../font/Montserrat-Regular.ttf') format('truetype');
 }
 
 
