@@ -8,12 +8,12 @@
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
     margin-top: -8px;
 }
 
 .custom-button a {
-    color: white;
+    color: inherit;
 }
 
 .custom-button:hover {
