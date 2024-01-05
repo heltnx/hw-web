@@ -75,7 +75,7 @@ header {
 .bar {
     width: 25px;
     height: 3px;
-    background-color: #F3E8D6;
+    background-color: #9bb1c6;
     margin: 6px 0;
     transition: 0.4s;
 }
@@ -85,25 +85,29 @@ header {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 50px;
-        right: 70px;
+        top: 180px;
+        right: 0px;
         background: #ACC3D8;
-        width: 50%;
+        width: 250px;
         padding: 20px;
-        text-align: center;
         border-radius: 5px
     }
 
     .nav li {
-        margin: 15px 0;
+        margin: 18px 18px;
     }
 
     .nav a {
         color: white;
     }
 
+    .nav a.active {
+        color: #FDE1B4;
+    }
+
+
     .nav a:hover {
-        color: #7A8EA1;
+        color: #FDE1B4;
     }
 
     .menu-open .nav ul {

@@ -27,7 +27,17 @@
 
 /*-----------mobile --768px--------*/
 @media only screen and (max-width: 768px) {
+    .custom-button {
+        background-color: transparent;
+        text-align: left;
+        margin-top: 0;
+    }
+
     .custom-button:hover {
         background-color: transparent;
+    }
+
+    .custom-button a:hover {
+        color: #eacc9c;
     }
 }
