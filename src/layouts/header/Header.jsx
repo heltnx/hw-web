@@ -13,13 +13,14 @@ const Header = () => {
     };
 
     return (
-        <div className='header-component'>
-            <div className="header-divider"></div>
-            <header className={`header ${isMenuOpen ? 'menu-open' : ''}`}>
+        <header >
+            <div className={`header ${isMenuOpen ? 'menu-open' : ''}`}>
+                <div className="header-divider"></div>
                 <div className="container">
                     <div className="logo-container">
                         <img src="logo.png" alt="Logo" className="logo" />
                     </div>
+
                     <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
                         <div className="menu-icon" onClick={toggleMenu}>
                             <div className="bar"></div>
@@ -27,21 +28,20 @@ const Header = () => {
                             <div className="bar"></div>
                         </div>
                         <ul>
-                            <li><NavLink to="/" exact activeClassName="active">Accueil</NavLink></li>
-                            <li><NavLink to="/realisations" activeClassName="active">Réalisations</NavLink></li>
-                            <li><NavLink to="/competences" activeClassName="active">Compétences</NavLink></li>
+                            <li><NavLink to="/" exact activeclassName="active">Accueil</NavLink></li>
+                            <li><NavLink to="/realisations" activeclassName="active">Réalisations</NavLink></li>
+                            <li><NavLink to="/competences" activeclassName="active">Compétences</NavLink></li>
 
                             <Button>
-                                <NavLink to="/contact" activeClassName="active">Contact</NavLink>
+                                <NavLink to="/contact" >Contact</NavLink>
                             </Button>
-
                         </ul>
                     </nav>
+
                 </div>
-            </header>
+            </div>
             <div className="header-divider-bottom"></div>
-            <div className="image-container"></div>
-        </div>
+        </header>
     );
 };
 
