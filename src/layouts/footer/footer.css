@@ -1,0 +1,18 @@
+footer {
+    background: linear-gradient(to bottom, #8ca3b9, #7494AD, #a3bbcf);
+}
+
+
+.footer-text {
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    padding: 30px;
+    cursor: pointer;
+}
+
+
+.footer p {
+    margin: 0;
+}

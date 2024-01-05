@@ -1,6 +1,11 @@
 @font-face {
-    font-family: 'Sitka Display';
-    src: url('../../assets/font/Sitka.ttc') format('truetype');
+    font-family: 'Sitka-Display';
+    src: url('../../assets/font/Sitka.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../assets/font/Montserrat-Regular.ttf') format('truetype');
 }
 
 
@@ -30,29 +35,21 @@ code {
     margin: 0 auto;
 }
 
-h1 {
-    font-family: "Sitka Display", sans-serif;
-    color: #6B849A;
-    font-size: 52px;
-    font-weight: 700;
-    text-transform: capitalize;
-    font-style: italic;
-    letter-spacing: 0.6px;
-    text-shadow: 0px 6px 6px #FFFFFF;
-    background: linear-gradient(to bottom, #f2f6f9ba, #EACC9C);
-    margin-top: 100px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-left: 18%;
+.divider {
+    height: 28px;
+    background-color: #5B7283;
+    opacity: 0.8;
+    width: 100%;
+    background: linear-gradient(#2b2929, rgb(59, 97, 126), #A3C0DC, rgb(205, 238, 252));
+    margin-bottom: 15px;
 }
 
 
 main {
-    height: 150vh;
+    height: 80vh;
     background: linear-gradient(to bottom, #F2F6F9, #AEC4D8);
     margin-top: 196px;
 }
-
 
 .image-container {
     height: 22px;
@@ -60,4 +57,33 @@ main {
     background-size: 100%;
     background-repeat: no-repeat;
     margin-top: 196px;
+}
+
+h1 {
+    font-family: "Shippori Mincho", sans-serif;
+    color: #6B849A;
+    font-size: 52px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-style: italic;
+    letter-spacing: 0.6px;
+
+    text-shadow: 0px 6px 6px #FFFFFF;
+    background: linear-gradient(to bottom, #f2f6f9ba, #EACC9C);
+
+    margin-top: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15%;
+}
+
+p {
+    font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4B5E6CDE;
+    font-family: "Shippori Mincho", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 28px;
+    letter-spacing: 0.3px;
 }

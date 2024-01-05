@@ -15,7 +15,7 @@ const Header = () => {
     return (
         <header >
             <div className={`header ${isMenuOpen ? 'menu-open' : ''}`}>
-                <div className="header-divider"></div>
+                <div className="divider"></div>
                 <div className="container">
                     <div className="logo-container">
                         <img src="logo.png" alt="Logo" className="logo" />

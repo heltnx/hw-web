@@ -12,21 +12,11 @@ header {
     background: #f2f6fb;
 }
 
-/* lignes */
-.header-divider {
-    height: 28px;
-    background-color: #5B7283;
-    opacity: 0.8;
-    width: 100%;
-    background: linear-gradient(#080808, rgb(59, 97, 126), #A3C0DC);
-    margin-bottom: 15px;
-}
-
+/* ligne */
 .header-divider-bottom {
     height: 20px;
     background-color: #ACC3D8;
     width: 100%;
-
 }
 
 
