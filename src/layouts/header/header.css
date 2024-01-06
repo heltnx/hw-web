@@ -38,6 +38,9 @@ header {
     padding: 0;
     margin: 0 20px;
     display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: scaleY(0);
+    transform-origin: top;
 }
 
 .nav li {
@@ -82,7 +85,6 @@ header {
 
 @media only screen and (max-width: 768px) {
     .nav ul {
-        display: none;
         flex-direction: column;
         position: absolute;
         top: 180px;
@@ -114,6 +116,10 @@ header {
         display: flex;
     }
 
+    .menu-open .nav ul {
+        transform: scaleY(1);
+    }
+
     .menu-icon {
         display: block;
     }
@@ -128,5 +134,13 @@ header {
 
     .nav-open .menu-icon .bar:nth-child(3) {
         transform: rotate(45deg) translate(-5px, -6px);
+    }
+}
+
+@media only screen and (min-width: 769px) {
+
+    /* Ajoutez une règle pour les écrans plus larges (menu desktop) */
+    .nav ul {
+        transform: scaleY(1);
     }
 }
