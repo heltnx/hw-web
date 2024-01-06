@@ -4,6 +4,7 @@
   "homepage": "https://heltnx.github.io/hw-web/",
   "private": true,
   "dependencies": {
+    "@npmcli/move-file": "^3.0.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -11,6 +12,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.20.1",
     "react-scripts": "5.0.1",
+    "request": "^2.88.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
