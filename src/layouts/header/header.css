@@ -36,7 +36,7 @@ header {
 .nav ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0 20px;
     display: flex;
 }
 
@@ -90,7 +90,7 @@ header {
         background: #ACC3D8;
         width: 250px;
         padding: 20px;
-        border-radius: 5px
+        border-radius: 5px;
     }
 
     .nav li {

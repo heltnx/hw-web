@@ -10,11 +10,17 @@
     cursor: pointer;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
     margin-top: -8px;
+    margin-right: 20px;
 }
 
 .custom-button a {
     color: inherit;
 }
+
+.custom-button a.active {
+    color: inherit;
+}
+
 
 .custom-button:hover {
     background-color: #eacc9c;
