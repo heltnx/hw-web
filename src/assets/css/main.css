@@ -44,9 +44,8 @@ code {
     margin-bottom: 15px;
 }
 
-
 main {
-    height: 80vh;
+    min-height: 80vh;
     background: linear-gradient(to bottom, #F2F6F9, #AEC4D8);
     margin-top: 196px;
 }
@@ -59,6 +58,7 @@ main {
     margin-top: 196px;
 }
 
+/*---------- typographie ---------------*/
 h1 {
     font-family: "Sitka", sans-serif;
     color: #6B849A;
@@ -67,10 +67,8 @@ h1 {
     text-transform: capitalize;
     font-style: italic;
     letter-spacing: 0.6px;
-
     text-shadow: 0px 6px 5px #FFFFFF;
     background: linear-gradient(to bottom, #f2f6f9ba, #EACC9C);
-
     margin-top: 100px;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -90,14 +88,45 @@ h1 {
     }
 }
 
+h2 {
+    color: #697a89;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-style: normal;
+    letter-spacing: 0.4px;
+    margin-top: 100px;
+    padding-left: 15%;
+    background: linear-gradient(to top, white, #f2f6f9ba, #d4e1ed);
+    height: 60px;
+
+
+}
+
 
 p {
-    font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
-    color: #4B5E6CDE;
-    font-family: "Shippori Mincho", Sans-serif;
+    color: rgb(68, 82, 92);
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
     line-height: 28px;
     letter-spacing: 0.3px;
+}
+
+/*--------- Mobiles --------------*/
+@media only screen and (max-width:850px) {
+
+    .container {
+        width: 80%;
+    }
+
+    h1 {
+        margin-top: 50px;
+        font-size: 40px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        padding-left: 8%;
+        padding-right: 20px;
+    }
+
 }
