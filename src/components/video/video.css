@@ -1,0 +1,9 @@
+.videos-container {
+    display: flex;
+    justify-content: center;
+}
+
+.video-wrapper {
+    width: 30%;
+    margin-bottom: 20px;
+}

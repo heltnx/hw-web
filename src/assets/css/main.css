@@ -90,22 +90,19 @@ h1 {
 
 h2 {
     color: #697a89;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 500;
-    text-transform: capitalize;
     font-style: normal;
     letter-spacing: 0.4px;
     margin-top: 100px;
-    padding-left: 15%;
+    text-align: center;
     background: linear-gradient(to top, white, #f2f6f9ba, #d4e1ed);
     height: 60px;
-
-
 }
 
 
 p {
-    color: rgb(68, 82, 92);
+    color: rgb(31, 34, 36);
     font-size: 18px;
     font-weight: 400;
     font-style: normal;
