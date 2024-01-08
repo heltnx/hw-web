@@ -5,7 +5,7 @@
     flex-direction: column;
     gap: 90px;
     margin-top: 70px;
-    margin-bottom: 80px;
+    padding-bottom: 80px;
 }
 
 span {
@@ -13,11 +13,12 @@ span {
     font-weight: 700;
 }
 
-p {
+.landing404 p {
     font-size: 3vw;
     font-weight: 500;
     line-height: normal;
     padding: 0 20px;
+    margin: 0;
 }
 
 .l404 {
@@ -35,5 +36,16 @@ p {
 
     a {
         font-size: 14px;
+    }
+}
+
+@media only screen and (min-width:1100px) {
+
+    .landing404 span {
+        font-size: 10vw;
+    }
+
+    a {
+        font-size: 18px;
     }
 }
