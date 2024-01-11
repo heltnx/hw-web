@@ -1,9 +1,11 @@
 .videos-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .video-wrapper {
     width: 30%;
     margin-bottom: 20px;
+    min-width: 300px;
 }

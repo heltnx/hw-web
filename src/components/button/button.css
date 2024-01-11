@@ -3,7 +3,7 @@
 .custom-button {
     background-color: #A3BCD2;
     color: #ffffff;
-    font-family: "Sitka Display bold italic", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     padding: 10px 20px;
     border: none;
@@ -11,6 +11,7 @@
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
     margin-top: -8px;
     margin-right: 20px;
+    letter-spacing: 2px;
 }
 
 .custom-button a {
@@ -23,7 +24,7 @@
 
 
 .custom-button:hover {
-    background-color: #eacc9c;
+    background-color: #ecd3aa;
     color: #8297a9;
 }
 
@@ -33,17 +34,17 @@
 
 /*-----------mobile --768px--------*/
 @media only screen and (max-width: 768px) {
-    .custom-button {
+    nav .custom-button {
         background-color: transparent;
         text-align: left;
         margin-top: 0;
     }
 
-    .custom-button:hover {
+    nav .custom-button:hover {
         background-color: transparent;
     }
 
-    .custom-button a:hover {
+    nav .custom-button a:hover {
         color: #eacc9c;
     }
 }

@@ -1,0 +1,33 @@
+.a-propos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.a-propos img {
+    width: 50%;
+}
+
+.a-propos .text {
+    width: 80%;
+    background-color: #b6cde130;
+    padding: 20px;
+}
+
+/*....... partie contact ..........*/
+
+.contact-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+
+}
+
+.contact-part p {
+    text-align: center;
+    font-size: 50px;
+}

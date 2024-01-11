@@ -24,6 +24,9 @@ code {
         monospace;
 }
 
+a {
+    text-decoration: none;
+}
 
 /*----------------*/
 
@@ -46,7 +49,7 @@ code {
 
 main {
     min-height: 80vh;
-    background: linear-gradient(to bottom, #F2F6F9, #AEC4D8);
+    background: linear-gradient(to bottom, #F2F6F9 50%, #AEC4D8);
     margin-top: 196px;
 }
 
@@ -58,7 +61,13 @@ main {
     margin-top: 196px;
 }
 
+.title {
+    background: linear-gradient(to top, white, #f2f6f9ba, #d4e1ed);
+}
+
 /*---------- typographie ---------------*/
+
+
 h1 {
     font-family: "Sitka", sans-serif;
     color: #6B849A;
@@ -90,27 +99,49 @@ h1 {
 
 h2 {
     color: #697a89;
-    font-size: 23px;
+    font-size: 1.5vw;
     font-weight: 500;
     font-style: normal;
     letter-spacing: 0.4px;
-    margin-top: 100px;
+    padding: 50px 0;
+    margin: 0;
     text-align: center;
-    background: linear-gradient(to top, white, #f2f6f9ba, #d4e1ed);
-    height: 60px;
+    background: linear-gradient(to top, white, #f2f6f9cc 50%);
 }
 
 
 p {
-    color: rgb(31, 34, 36);
+    color: rgb(61, 72, 79);
     font-size: 18px;
     font-weight: 400;
     font-style: normal;
-    line-height: 28px;
+    line-height: 30px;
     letter-spacing: 0.3px;
 }
 
+span {
+    line-height: 38px;
+    color: rgb(61, 72, 79);
+    font-size: 19px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+strong {
+    color: #697a89;
+    font-weight: bold;
+}
+
+
 /*--------- Mobiles --------------*/
+
+@media only screen and (max-width:1200px) {
+    h2 {
+        font-size: 2.1vw;
+    }
+}
+
+
 @media only screen and (max-width:850px) {
 
     .container {
@@ -126,4 +157,11 @@ p {
         padding-right: 20px;
     }
 
+    @media only screen and (max-width:1200px) {
+        h2 {
+            font-size: 18px;
+            padding: 50px 30px;
+
+        }
+    }
 }

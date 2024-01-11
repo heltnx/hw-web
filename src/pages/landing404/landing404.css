@@ -8,7 +8,7 @@
     padding-bottom: 80px;
 }
 
-span {
+.landing404 span {
     font-size: 18vw;
     font-weight: 700;
 }
@@ -28,13 +28,13 @@ span {
 
 @media only screen and (max-width:500px) {
 
-    p {
+    .landing404 p {
         max-width: 300px;
         align-self: center;
         font-size: 18px;
     }
 
-    a {
+    .landing404 a {
         font-size: 14px;
     }
 }
