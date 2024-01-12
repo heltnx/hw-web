@@ -2,15 +2,16 @@ import React from 'react';
 import Layout from '../../layouts/Layout';
 import './realisations.css'
 import VideoWrapper from '../../layouts/video-wraper/VideoWrapper.jsx';
-import video1 from '../../assets/images/gabari-tab.mp4';
-import video2 from '../../assets/images/gabari-ordi.mp4';
-import video3 from '../../assets/images/gabari-mobile.mp4';
-import video4 from '../../assets/images/ohmyfood.mp4'
+import video1 from '../../assets/videos/gabari-tab.mp4';
+import video2 from '../../assets/videos/gabari-ordi.mp4';
+import video3 from '../../assets/videos/gabari-mobile.mp4';
+import video4 from '../../assets/videos/ohmyfood.mp4'
+import image5 from '../../assets/images/ohmyfood.jpg'
 
 const Realisations = () => {
 
     const videosSection1 = [video1, video2, video3];
-    const videosSection2 = [video4];
+    const videosSection2 = [image5, video4];
 
     return (
         <Layout >
@@ -40,7 +41,7 @@ const Realisations = () => {
                             Intégrer une <strong>maquette en mobile-first</strong></p>
                         <p>Mettre en œuvre des animations <strong>CSS</strong></p>
                         <p>Versionner son projet avec <strong><nobr>Git et Github</nobr></strong><br></br>
-                            utiliser<strong>Sass </strong>.
+                            utiliser<strong> Sass </strong>.
                         </p>
                     </div>
                 </div>
