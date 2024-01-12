@@ -22,10 +22,10 @@ const Realisations = () => {
 
                     <VideoWrapper videos={videosSection1} />
 
-                    <div className='container'>
+                    <div >
                         <p>
-                            Implémenter une interface <strong className='highlight'>"responsive"</strong> avec <nobr><strong className='highlight'>HTML</strong> et <strong className='highlight'>CSS</strong></nobr> <br></br>
-                            Intégrer du contenu <strong className='highlight'>conformément à une maquette</strong> avec <nobr><strong className='highlight'>HTML</strong> et <strong className='highlight'>CSS</strong></nobr>
+                            Implémenter une interface <strong >"responsive"</strong> avec <nobr><strong >HTML</strong> et <strong>CSS</strong></nobr> <br></br>
+                            Intégrer du contenu <strong>conformément à une maquette</strong> avec <nobr><strong >HTML</strong> et <strong >CSS</strong></nobr>
                         </p>
                     </div>
                 </div>
@@ -37,9 +37,10 @@ const Realisations = () => {
 
                     <div className='container'>
                         <p>
-                            Intégrer une <strong className='highlight'>maquette en mobile-first</strong> <br></br>
-                            Mettre en œuvre des animations <strong className='highlight'>CSS</strong> <br></br>
-                            Versionner son projet avec <strong className='highlight'>Git et Github</strong>
+                            Intégrer une <strong>maquette en mobile-first</strong></p>
+                        <p>Mettre en œuvre des animations <strong>CSS</strong></p>
+                        <p>Versionner son projet avec <strong><nobr>Git et Github</nobr></strong><br></br>
+                            utiliser<strong>Sass </strong>.
                         </p>
                     </div>
                 </div>
