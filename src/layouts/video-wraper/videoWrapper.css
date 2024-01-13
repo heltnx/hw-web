@@ -1,0 +1,16 @@
+.imageContain {
+    display: flex;
+    width: 30%;
+    margin-bottom: 20px;
+    min-width: 300px;
+    align-items: center;
+}
+
+.imageContain img {
+    width: 100%;
+}
+
+.image-alone {
+
+    width: 50%;
+}

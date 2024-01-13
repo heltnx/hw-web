@@ -49,7 +49,7 @@ const Realisations = () => {
                 <div className="section_container">
                     <h2>Premiers pas sur le langage JavaScript <b>JavaScript</b></h2>
 
-                    <VideoWrapper mediaList={videosSection3} className="image-alone" />
+                    <VideoWrapper mediaList={videosSection3} />
 
                     <div >
                         <p>Programmer en utilisant les fondamentaux de <strong>JavaScript</strong></p>
