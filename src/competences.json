@@ -40,7 +40,7 @@
       },
       {
         "nom": "Redux",
-        "icone": "src/assets/icons/redux-icon.png",
+        "icone": "./assets/icons/redux-icon.png",
         "description": [
           "Afficher les données du back end sur l'interface via des appels API",
           "Configurer des routes API pour la communication client / serveur",
@@ -49,7 +49,7 @@
       },
       {
         "nom": "Gestion de projet",
-        "icone": "src/assets/icons/gestion-icon.png",
+        "icone": "./assets/icons/gestion-icon.png",
         "description":[
           "Présenter la solution technique",
           "Rédiger les spécifications techniques d'un projet web à partir de besoins fonctionnels",
@@ -62,7 +62,7 @@
       },
       {
         "nom": "SEO",
-        "icone": "src/assets/icons/seo-icon.png",
+        "icone": "./assets/icons/seo-icon.png",
         "description":[
           "Optimiser la performance d'un site web",
           "remettre un rapport d’optimisation détaillé",
@@ -72,7 +72,7 @@
       },
       {
         "nom": "Debug",
-        "icone": "src/assets/icons/debug-icon.png",
+        "icone": "./assets/icons/debug-icon.png",
         "description":[
           "Débugger un site web grâce aux Chrome DevTools",
           "Rédiger un cahier de recette pour tester un site",
@@ -82,7 +82,7 @@
       },
       {
         "nom": "Sites web & design",
-        "icone": "src/assets/icons/sites-design-icon.png",
+        "icone": "./assets/icons/sites-design-icon.png",
         "description":[
           "Déployer un site statique en ligne",
           "https://hwweb.fr/prestations/sites-internet/"
