@@ -56,7 +56,7 @@ const Realisations = () => {
                     </div>
                 </div>
             </div>
-        </Layout >
+        </Layout>
     );
 };
 

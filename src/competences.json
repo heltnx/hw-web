@@ -49,7 +49,7 @@
       },
       {
         "nom": "Gestion de projet",
-        "icone": "src/assets/icons/gestion-projet-icon.png",
+        "icone": "src/assets/icons/gestion-icon.png",
         "description":[
           "Présenter la solution technique",
           "Rédiger les spécifications techniques d'un projet web à partir de besoins fonctionnels",
