@@ -1,0 +1,94 @@
+{
+    "competences": [
+    
+      {
+        "nom": "HTML & CSS",
+        "icone": "./assets/icons/css-icon.png",
+        "description": [
+          "Développer une interface web",
+          "Respect des maquettes Figma",
+          "Mettre en œuvre des animations CSS"
+        ]
+      },
+      {
+        "nom": "Sass",
+        "icone": "./assets/icons/sass-icon.png",
+        "description": [
+          "Développer une interface web avec Sass",
+          "Mettre en œuvre des animations CSS"
+        ] 
+      },
+      {
+        "nom": "JavaScript",
+        "icone": "./assets/icons/javascript.png",
+        "description":[
+          "Programmer un carrousel avec défilement infini, en utilisant les fondamentaux de JavaScript",
+          "Gérer les événements utilisateurs avec JavaScript",
+          "Manipuler les éléments du DOM avec JavaScript",
+          "Récupérer les données utilisateurs dans le JavaScript via des formulaires"
+        ] 
+          },
+      {
+        "nom": "React",
+        "icone": "./assets/icons/react-icon.png",
+        "description":[
+          "Initialiser une application avec Create React App",
+          "Configurer la navigation entre les pages de l'application avec React Router",
+          "Manipuler les éléments du DOM avec JavaScript",
+          "Développer des éléments de l'interface d'un site web grâce à des composants React"
+        ]
+      },
+      {
+        "nom": "Redux",
+        "icone": "src/assets/icons/redux-icon.png",
+        "description": [
+          "Afficher les données du back end sur l'interface via des appels API",
+          "Configurer des routes API pour la communication client / serveur",
+          "Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front"
+        ]
+      },
+      {
+        "nom": "Gestion de projet",
+        "icone": "src/assets/icons/gestion-projet-icon.png",
+        "description":[
+          "Présenter la solution technique",
+          "Rédiger les spécifications techniques d'un projet web à partir de besoins fonctionnels",
+          "Découper des fonctionnalités en tâches pour préparer le développement",
+          "Mettre en place une méthode de veille technologique",
+          "Suivre le déroulement du projet grâce à l'outil de gestion de projet Trello",
+          "Méthodologie agile Scrum, avec l'utilisation de l'outil Kanban Trello pour organiser les tâches et suivre l'avancement du projet.",
+          "Découpage des User Stories"
+        ] 
+      },
+      {
+        "nom": "SEO",
+        "icone": "src/assets/icons/seo-icon.png",
+        "description":[
+          "Optimiser la performance d'un site web",
+          "remettre un rapport d’optimisation détaillé",
+          "utilisation de Lighthouse, audit Rich Snippet, wave"
+        ] 
+
+      },
+      {
+        "nom": "Debug",
+        "icone": "src/assets/icons/debug-icon.png",
+        "description":[
+          "Débugger un site web grâce aux Chrome DevTools",
+          "Rédiger un cahier de recette pour tester un site",
+          "Réalisation de tests fonctionnels"
+        ] 
+
+      },
+      {
+        "nom": "Sites web & design",
+        "icone": "src/assets/icons/sites-design-icon.png",
+        "description":[
+          "Déployer un site statique en ligne",
+          "https://hwweb.fr/prestations/sites-internet/"
+        ] 
+
+      }
+    ]
+  }
+  
