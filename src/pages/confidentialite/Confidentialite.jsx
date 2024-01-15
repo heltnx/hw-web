@@ -1,15 +1,19 @@
 import React from 'react';
-import Layout from '../../layouts/Layout'
+import Button from '../../components/button/Button'
+import { Link } from 'react-router-dom';
 import './confidentialite.css';
 
 
 const Confidentialite = () => {
     return (
-        <Layout>
+        <div>
             <div >
                 <h1>Politique de confidentialité</h1>
             </div>
             <div className='confidentialite'>
+                <Button>
+                    <Link to="/" >close</Link>
+                </Button>
                 <p>Votre vie privée est importante pour nous. Cette politique de confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations.</p>
 
                 <h2>Collecte d'informations</h2>
@@ -35,7 +39,7 @@ const Confidentialite = () => {
 
                 <p>Si vous avez des questions ou des préoccupations concernant notre politique de confidentialité, veuillez nous contacter à "hwweb21@gmail.com.</p>
             </div>
-        </Layout>
+        </div>
     );
 };
 

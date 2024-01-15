@@ -14,9 +14,9 @@ const Home = () => {
                 <div className='a-propos container'>
                     <div className='text'>
                         <p> Je viens de terminer une formation à distance et obtenu le:
-                            <span><nobr><strong>" titre professionel d'intégrateur-web ".</strong></nobr></span><br></br>
+                            <span> titre professionel "d'<strong><nobr>intégrateur-web "</nobr>.</strong></span><br></br>
                             Cela m'a permis d'acquérir de nouvelles compétences dans le domaine du web.<br></br>
-                            Je possède également un <span><strong><nobr>" titre professionnel de web-designer ".</nobr></strong></span></p>
+                            Je possède également un <span>titre professionnel de <strong><nobr> " web-designer ".</nobr></strong></span></p>
                         <p> Je suis une personne de confiance, rigoureuse et méthodique, qui aime relever des défis et apprendre de nouvelles choses.
                             J'ai créé mon auto-entreprise <span><strong><nobr>" HW-WEB "</nobr></strong></span>, afin de pouvoir travailler aussi en freelance'.
                         </p>
