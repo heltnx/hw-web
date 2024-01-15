@@ -5,6 +5,7 @@ import './confidentialite.css';
 
 
 const Confidentialite = () => {
+
     return (
         <div>
             <div >
@@ -12,7 +13,7 @@ const Confidentialite = () => {
             </div>
             <div className='confidentialite'>
                 <Button>
-                    <Link to="/" >close</Link>
+                    <Link to="/contact" >close</Link>
                 </Button>
                 <p>Votre vie privée est importante pour nous. Cette politique de confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations.</p>
 

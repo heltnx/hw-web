@@ -85,7 +85,7 @@ const ContactForm = () => {
                             required
                         />
                         <span style={{ color: 'orange' }}> * </span>
-                        J'ai lu et accepte la <Link to="/Confidentialite" target="blank" style={{ color: '#666673', cursor: 'pointer', padding: '5px', hover: "white" }}>"politique de confidentialité"</Link> de ce site.
+                        J'ai lu et accepte la <Link to="/Confidentialite" style={{ color: '#666673', cursor: 'pointer', padding: '5px', hover: "white" }}>"politique de confidentialité"</Link>
                     </label>
 
                     <button className="custom-button"

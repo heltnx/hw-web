@@ -4,8 +4,8 @@ import ContactForm from '../../layouts/contactForm/ContactForm';
 
 const Contact = () => {
     return (
-        <Layout>
-            <div className="home">
+        <Layout className="contact">
+            <div>
                 <h1>Contact</h1>
             </div>
             <ContactForm className='contact_contain' />
