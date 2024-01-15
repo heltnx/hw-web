@@ -1,8 +1,13 @@
+// src/layouts/mediaWrapper/mediaWrapper.jsx
+
+// src/layouts/mediaWrapper/mediaWrapper.jsx
+
 import React from 'react';
 import Video from '../../components/video/Video';
-import './videoWrapper.css'
+import './mediaWrapper.css';
 
-const VideoWrapper = ({ mediaList }) => {
+
+const MediaWrapper = ({ mediaList }) => {
     return (
         <div className="videos-container">
             {mediaList.map((media, index) => (
@@ -12,11 +17,14 @@ const VideoWrapper = ({ mediaList }) => {
                     <div key={index} className="imageContain">{media}</div>
                 ) : (
                     // If it's a string (video URL), render the Video component
-                    <Video key={index} url={media} />
+                    <Video key={index} url={media.media} alt={media.description} />
                 )
             ))}
         </div>
     );
 };
 
-export default VideoWrapper;
+
+
+export default MediaWrapper;
+

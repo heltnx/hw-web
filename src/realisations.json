@@ -1,44 +1,48 @@
 {"realisations":[
 	{
 		"id": "1",
-		"projectTitle" : "Création de la page d'accueil d'une agence de voyage avec <nobr> <b>HTML</b> &amp; <b>CSS</b></nobr>",
+		"projectTitle" : "Création de la page d'accueil d'une agence de voyage avec <nobr><strong>HTML</strong> &amp;<strong>CSS</strong></nobr>",
 		"anchor": "HTML, CSS",
 		"medias" : 
 		[
 			{
-				"media": "./assets/videos/gabari-tab.mp4",
+				"type": "video",
+				"media": "/assets/videos/gabari-tab.mp4",
 				"description" : "Tablette"
 			},
 			{
+				"type": "video",
 				"media": "./assets/videos/gabari-ordi.mp4",
 				"description" : "Desktop"
 			},
 			{
+				"type": "video",
 				"media": "/src/assets/videos/gabari-mobile.mp4",
 				"description" : "Mobile"
 			}
 		],
-		"description" : [
-			"Implémenter une interface <strong >'responsive'</strong> avec <nobr><strong >HTML</strong> et <strong>CSS</strong></nobr>",
-			"Intégrer du contenu <strong>conformément à une maquette</strong> avec <nobr><strong >HTML</strong> et <strong >CSS</strong></nobr>"
-		],
+		"description" : 
+			"Implémenter une interface <strong >'responsive'</strong>, et Intégrer du contenu <strong>conformément à une maquette</strong> avec <nobr><strong >HTML</strong> et <strong >CSS</strong></nobr>",
 		"link": "https://heltnx.github.io/booki-starter-code-master/"
 	},
 	{
 		"id": "2",
-		"projectTitle" : "Améliorez l'interface d'un site mobile avec des animations <b>CSS</b>",
+		"projectTitle" : "Améliorez l'interface d'un site mobile avec des animations <strong>CSS</strong>",
 		"anchor": "HTML, CSS, GitHub",
 		"medias" : 
 		[
 			{
-				"media": "./assets/images/ohmyfood.jpg",
+				"type": "image",
+				"media": "public/assets/images/ohmyfood.jpg",
 				"description" : "Intégrer une <strong>maquette en mobile-first</strong>"
 			},
 			{
+				"type": "video",
 				"media": "./assets/videos/ohmyfood.mp4",
 				"description" : "Mettre en œuvre des animations <strong>CSS</strong>"
 			},
 			{
+				"type": "image",
 				"media": "./assets/images/ohmyfood-sass-git.jpg",
 				"description" : "Versionner son projet avec <strong><nobr>Git et Github</nobr></strong><br></br> utiliser<strong> Sass </strong>."
 			}
@@ -48,16 +52,17 @@
 	},
 	{
 		"id": "3",
-		"projectTitle" : "Premiers pas sur le langage <b>JavaScript</b>",
+		"projectTitle" : "Premiers pas sur le langage <strong>JavaScript</strong>",
 		"anchor": "HTML, CSS, javaScript",
 		"medias" : 
 		[
 			{
-				"media": "./assets/images/caroussel.jpg",
+				"type": "image",
+				"media": "https://media.joomeo.com/original/65a448bb1ef34.jpg",
 				"description" : ""
 			}
 		],
-		"description" : "Programmer un <b>carrousel<b/> avec défilement infini, en utilisant les fondamentaux de <strong>JavaScript</strong>",
+		"description" : "Programmer un <strong>carrousel<strong/> avec défilement infini, en utilisant les fondamentaux de <strong>JavaScript</strong>",
 		"link": "https://heltnx.github.io/Print-it-JS-main/"
 	},
 	{
@@ -67,14 +72,17 @@
 		"medias" : 
 		[
 			{
+				"type": "image",
 				"media": "./assets/images/sophie-gallery.jpg",
 				"description" : "Gérer les événements utilisateurs avec <strong>JavaScript</strong>"
 			},
 			{
+				"type": "video",
 				"media": "./assets/videos/Sophie-Bluel.mp4",
 				"description" : "Programmer en utilisant les fondamentaux de <strong>JavaScript</strong>"
 			},
 			{
+				"type": "image",
 				"media": "./assets/images/sophie-formulaire.jpg",
 				"description" : "Récupérer les données utilisateurs dans le JavaScript via des <strong>formulaires</strong>"
 			}
@@ -89,15 +97,18 @@
 		"medias" : 
 		[
 			{
+				"type": "image",
 				"media": "./assets/images/router.jpg",
 				"description" : "Configurer la navigation entre les pages de l'application avec <nobr><strong>React Router</></nobr><br></br> Développer une interface web avec <strong> Sass</strong>"
 			},
 			{
+				"type": "video",
 				"media": "./assets/videos/kasa.mp4",
 				"description" : "Mettre en œuvre des <strong><nobr>animations CSS</nobr></strong>"
 				
 			},
 			{
+				"type": "image",
 				"media": "./assets/images/kasa.jpg",
 				"description" : "Développer des éléments de l'interface d'un site web grâce à des <strong>composants React</strong>"
 			}
