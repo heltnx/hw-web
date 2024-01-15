@@ -1,0 +1,21 @@
+.confidentialite {
+    margin: 0 auto;
+    background-color: rgb(253, 253, 253);
+    width: 75%;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.confidentialite h2 {
+    background-color: rgb(255 255 255 / 100%);
+    width: max-content;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.confidentialite p {
+    background-color: rgb(255 255 255 / 100%);
+
+    padding: 0 20px;
+    text-align: left;
+}

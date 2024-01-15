@@ -51,6 +51,7 @@ main {
     min-height: 80vh;
     background: linear-gradient(to bottom, #F2F6F9 50%, #AEC4D8);
     margin-top: 196px;
+    padding-bottom: 50px;
 }
 
 .image-container {
