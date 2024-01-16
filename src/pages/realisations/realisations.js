@@ -19,16 +19,11 @@ const Realisations = () => {
 
                             {/* Utilisation de VideoWrapper pour afficher la liste de médias */}
                             <VideoWrapper mediaList={realisation.medias} />
-
-                            {/* Affichage de la description */}
                             <div>
                                 <p dangerouslySetInnerHTML={{ __html: realisation.description }} />
                             </div>
-
-                            {/* Ajout du lien et de l'anchor */}
                             <div >
                                 <p><a href={realisation.link} target='blank'>Voir le site :</a></p>
-                                <p>compétences : {realisation.anchor}</p>
                             </div>
                         </div>
                     ))}

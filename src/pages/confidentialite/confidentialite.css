@@ -15,7 +15,14 @@
 
 .confidentialite p {
     background-color: rgb(255 255 255 / 100%);
-
     padding: 0 20px;
     text-align: left;
+
+}
+
+button.custom-button {
+    margin: auto;
+    position: relative;
+    left: 200px;
+    bottom: 20px;
 }
