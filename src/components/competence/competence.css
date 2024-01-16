@@ -1,5 +1,3 @@
-/* src/components/Competence.css */
-
 .competence {
     margin: 5px;
     position: relative;
@@ -7,11 +5,10 @@
     background-color: rgb(255, 255, 255);
     max-width: 700px;
     padding: 0 20px;
-    border: 5px solid #eacc9c91;
+    border: 2px solid #eacc9c91;
     border-radius: 10px;
     margin-bottom: 20px;
     transition: background-color 0.3s ease-in-out;
-    /* Ajout de transition pour le changement de couleur de fond */
 }
 
 .competence.active {
@@ -20,9 +17,7 @@
 
 .competence.active .description {
     max-height: 1000px;
-    /* Utilisation de max-height pour une transition fluide */
     transition: max-height 0.5s ease-in-out, transform-origin 0.5s ease-in-out;
-    /* Utilisation de max-height et transform-origin pour la transition */
 }
 
 .description {
@@ -52,4 +47,25 @@
     font-size: 16px;
     font-weight: bold;
     color: #697a89;
+}
+
+.detail-button {
+    position: absolute;
+    right: 0;
+}
+
+.arrow-down {
+    width: 0px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 9px solid #a4b6c5;
+    transform: translate(-20px, -20px);
+}
+
+.arrow-up {
+    width: 0px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 12px solid #a4b6c5;
+    transform: translate(-30px, -20px);
 }
