@@ -1,0 +1,23 @@
+.modale {
+    width: max-content;
+    background: transparent;
+}
+
+.custom-modal {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+    border: 1px solid #eee;
+    max-width: 400px;
+
+    border-radius: 2px;
+    padding: 20px;
+    max-width: 500px;
+    text-align: center;
+    background-color: #fde1b4eb;
+    z-index: 2;
+
+}

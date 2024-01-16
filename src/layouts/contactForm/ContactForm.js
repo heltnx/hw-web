@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import emailjs from 'emailjs-com';
+import Modale from '../../components/modale/Modale.jsx';
 import './contactform.css';
 
 const ContactForm = () => {
-    const [formData, setFormData] = useState({
+    const initialFormData = {
         firstName: '',
         lastName: '',
         company: '',
@@ -12,7 +13,25 @@ const ContactForm = () => {
         phone: '',
         message: '',
         privacyPolicyAccepted: false,
-    });
+    };
+
+    const [formData, setFormData] = useState(initialFormData);
+    const [modalIsOpen, setModalIsOpen] = useState(false);
+    const [modalMessage, setModalMessage] = useState('');
+
+    const openModal = (message) => {
+        setModalMessage(message);
+        setModalIsOpen(true);
+        setModalIsOpen(true);
+    };
+
+    const closeModal = () => {
+        setModalIsOpen(false);
+    };
+
+    const resetForm = () => {
+        setFormData(initialFormData);
+    };
 
     const handleChange = (e) => {
         const { name, value, type, checked } = e.target;
@@ -24,16 +43,16 @@ const ContactForm = () => {
 
     const sendEmail = () => {
         if (!formData.privacyPolicyAccepted) {
-            console.log('Veuillez accepter la politique de confidentialité.');
+            openModal('Veuillez accepter la politique de confidentialité.');
             return;
         }
 
-        emailjs.send('service_dzeury9', 'template_zms473j', formData, 'YOUR_USER_ID')
+        emailjs.send('service_dzeury9', 'template_zms473j', formData, 'PbrHOa8VsC-CtLjHu')
             .then((response) => {
-                console.log('Email envoyé avec succès :', response);
+                openModal('Email envoyé avec succès');
             })
             .catch((error) => {
-                console.error('Erreur lors de l\'envoi de l\'email :', error);
+                openModal('Erreur lors de l\'envoi de l\'email');
             });
     };
 
@@ -43,7 +62,7 @@ const ContactForm = () => {
     };
 
     return (
-        <div className='contact-contain' >
+        <div className='contact-contain'>
             <form onSubmit={handleSubmit}>
 
                 <div>
@@ -87,13 +106,17 @@ const ContactForm = () => {
                         <span style={{ color: 'orange' }}> * </span>
                         J'ai lu et accepte la <Link to="/Confidentialite" style={{ color: 'rgb(61 77 79)', cursor: 'pointer', padding: '5px' }}>"politique de confidentialité"</Link>
                     </label>
-
-                    <button className="custom-button"
-                        type="submit" >
-                        Envoyer
-                    </button>
+                    <button className="custom-button" type="submit">Envoyer</button>
                 </div>
             </form>
+
+            {/* Intégration de la fenêtre modale */}
+            <Modale className="custom-modal ReactModal__Overlay ReactModal__Overlay--after-open"
+                isOpen={modalIsOpen}
+                closeModal={closeModal}
+                message={modalMessage}
+                resetForm={resetForm} // Passez la fonction de réinitialisation en tant que prop
+            />
         </div>
     );
 };
