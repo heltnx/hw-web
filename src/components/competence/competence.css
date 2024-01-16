@@ -6,13 +6,12 @@
     border: 2px solid #eacc9c91;
     border-radius: 10px;
     padding: 0 20px;
-    min-width: 400px;
+    min-width: 300px;
     margin-bottom: 20px;
-    margin-right: 50px;
+    margin-top: 5px;
     transition: background-color 0.3s ease-in-out;
-
-
 }
+
 
 .competence.active {
     z-index: 1;
@@ -83,4 +82,11 @@ button.look-button {
     padding: 2px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+/*---------- mobile ------------*/
+@media only screen and (min-width:1600px) {
+    .competence {
+        min-width: 500px;
+    }
 }

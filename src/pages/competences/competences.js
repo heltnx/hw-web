@@ -7,7 +7,7 @@ const Competences = () => {
 
     return (
         <Layout>
-            <div className="home">
+            <div >
                 <h1>Compétences</h1>
             </div>
             <CompetencesList />

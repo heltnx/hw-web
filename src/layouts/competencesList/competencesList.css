@@ -1,9 +1,8 @@
 .competencesList {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 75%;
-    margin: auto;
+    margin-left: 12%;
     padding-bottom: 20px;
-
 }
