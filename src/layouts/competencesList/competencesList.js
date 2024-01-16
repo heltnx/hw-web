@@ -2,7 +2,6 @@
 import React, { useState } from 'react';
 import Competence from '../../components/competence/Competence.jsx';
 import competencesData from '../../competences.json';
-import { Link } from 'react-router-dom';
 import './competencesList.css';
 
 const CompetencesList = () => {
@@ -22,10 +21,6 @@ const CompetencesList = () => {
     <div className="competencesList">
       {competencesData.competences.map((competence) => (
         <div key={competence.id}>
-          {/* Bouton pour ouvrir la page Realisations avec les éléments associés */}
-          <Link to={`/realisations#${competence.nom.toLowerCase().substring(0, 3)}`}>
-            <button className='custom-button'>Voir les réalisations utilisant {competence.nom}</button>
-          </Link>
 
           {/* Compétence correspondante */}
           <Competence

@@ -3,12 +3,15 @@
     position: relative;
     cursor: pointer;
     background-color: rgb(255, 255, 255);
-    max-width: 700px;
-    padding: 0 20px;
     border: 2px solid #eacc9c91;
     border-radius: 10px;
+    padding: 0 20px;
+    min-width: 400px;
     margin-bottom: 20px;
+    margin-right: 50px;
     transition: background-color 0.3s ease-in-out;
+
+
 }
 
 .competence.active {
@@ -49,7 +52,7 @@
     color: #697a89;
 }
 
-.detail-button {
+.arrow {
     position: absolute;
     right: 0;
 }
@@ -67,5 +70,17 @@
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-bottom: 12px solid #a4b6c5;
-    transform: translate(-30px, -20px);
+    transform: translate(-20px, -20px);
+}
+
+button.look-button {
+    text-shadow: 0px 1px 0px #9488888a;
+    border: none;
+    background-color: rgb(163 188 210 / 69%);
+    border-radius: 2px;
+    font-size: 18px;
+    color: white;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
