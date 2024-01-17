@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Button from '../../components/button/Button'
 import { NavLink } from 'react-router-dom';
 import './confidentialite.css';
 
-
 const Confidentialite = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+        return () => {
+            window.scrollTo(0, 0);
+        };
+    }, []);
 
     return (
         <div >

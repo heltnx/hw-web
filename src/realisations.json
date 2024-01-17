@@ -7,17 +7,17 @@
 		[
 			{
 				"type": "video",
-				"media": "/assets/videos/gabari-tab.mp4",
+				"url": "./assets/videos/gabari-tab.mp4",
 				"description" : "Tablette"
 			},
 			{
 				"type": "video",
-				"media": "./assets/videos/gabari-ordi.mp4",
+				"url": "./assets/videos/gabari-ordi.mp4",
 				"description" : "Desktop"
 			},
 			{
 				"type": "video",
-				"media": "/src/assets/videos/gabari-mobile.mp4",
+				"url": "./assets/videos/gabari-mobile.mp4",
 				"description" : "Mobile"
 			}
 		],
@@ -33,17 +33,17 @@
 		[
 			{
 				"type": "image",
-				"media": "public/assets/images/ohmyfood.jpg",
+				"url": "./assets/images/ohmyfood.jpg",
 				"description" : "Intégrer une <strong>maquette en mobile-first</strong>"
 			},
 			{
 				"type": "video",
-				"media": "./assets/videos/ohmyfood.mp4",
+				"url": "./assets/videos/ohmyfood.mp4",
 				"description" : "Mettre en œuvre des animations <strong>CSS</strong>"
 			},
 			{
 				"type": "image",
-				"media": "./assets/images/ohmyfood-sass-git.jpg",
+				"url": "./assets/images/ohmyfood-sass-git.jpg",
 				"description" : "Versionner son projet avec <strong><nobr>Git et Github</nobr></strong><br></br> utiliser<strong> Sass </strong>."
 			}
 		],
@@ -58,7 +58,7 @@
 		[
 			{
 				"type": "image",
-				"media": "https://media.joomeo.com/original/65a448bb1ef34.jpg",
+				"url": "./assets/images/caroussel.jpg",
 				"description" : ""
 			}
 		],
@@ -73,17 +73,17 @@
 		[
 			{
 				"type": "image",
-				"media": "./assets/images/sophie-gallery.jpg",
+				"url": "./assets/images/sophie-gallery.jpg",
 				"description" : "Gérer les événements utilisateurs avec <strong>JavaScript</strong>"
 			},
 			{
 				"type": "video",
-				"media": "./assets/videos/Sophie-Bluel.mp4",
+				"url": "./assets/videos/Sophie-Bluel.mp4",
 				"description" : "Programmer en utilisant les fondamentaux de <strong>JavaScript</strong>"
 			},
 			{
 				"type": "image",
-				"media": "./assets/images/sophie-formulaire.jpg",
+				"url": "./assets/images/sophie-formulaire.jpg",
 				"description" : "Récupérer les données utilisateurs dans le JavaScript via des <strong>formulaires</strong>"
 			}
 		],
@@ -98,18 +98,18 @@
 		[
 			{
 				"type": "image",
-				"media": "./assets/images/router.jpg",
+				"url": "./assets/images/router.jpg",
 				"description" : "Configurer la navigation entre les pages de l'application avec <nobr><strong>React Router</></nobr><br></br> Développer une interface web avec <strong> Sass</strong>"
 			},
 			{
 				"type": "video",
-				"media": "./assets/videos/kasa.mp4",
+				"url": "./assets/videos/kasa.mp4",
 				"description" : "Mettre en œuvre des <strong><nobr>animations CSS</nobr></strong>"
 				
 			},
 			{
 				"type": "image",
-				"media": "./assets/images/kasa.jpg",
+				"url": "./assets/images/kasa.jpg",
 				"description" : "Développer des éléments de l'interface d'un site web grâce à des <strong>composants React</strong>"
 			}
 		],

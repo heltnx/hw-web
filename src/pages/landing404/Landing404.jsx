@@ -1,9 +1,16 @@
-import React from 'react';
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Layout from '../../layouts/Layout';
 import '../landing404/landing404.css'
 
 const Landing404 = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+        return () => {
+            window.scrollTo(0, 0);
+        };
+    }, []);
+
     return (
         <Layout>
             <div className='landing404'>
