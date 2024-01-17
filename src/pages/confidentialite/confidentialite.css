@@ -1,9 +1,10 @@
 .confidentialite {
-    margin: 0 auto;
+    margin: 0 15%;
     background-color: rgb(253, 253, 253);
-    width: 75%;
+    width: 70%;
     padding-top: 5px;
     padding-bottom: 20px;
+    max-width: 1000PX;
 }
 
 .confidentialite h2 {
@@ -17,12 +18,11 @@
     background-color: rgb(255 255 255 / 100%);
     padding: 0 20px;
     text-align: left;
-
 }
 
-.confidentialite button.custom-button {
-    margin: auto;
+.confidentialite-button button {
+    margin: 30px auto;
     position: relative;
-    left: 200px;
+    left: 40%;
     bottom: 20px;
 }

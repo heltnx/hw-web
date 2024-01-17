@@ -1,13 +1,13 @@
 import React from 'react';
 import Button from '../../components/button/Button'
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './confidentialite.css';
 
 
 const Confidentialite = () => {
 
     return (
-        <div>
+        <div >
             <div >
                 <h1>Politique de confidentialité</h1>
             </div>
@@ -38,9 +38,11 @@ const Confidentialite = () => {
 
                 <p>Si vous avez des questions ou des préoccupations concernant notre politique de confidentialité, veuillez nous contacter à "hwweb21@gmail.com.</p>
             </div>
-            <Button>
-                <Link to="/contact" >Fermer</Link>
-            </Button>
+            <div className="confidentialite-button">
+                <Button  >
+                    <NavLink to="/contact" >Fermer</NavLink>
+                </Button>
+            </div>
         </div>
     );
 };
