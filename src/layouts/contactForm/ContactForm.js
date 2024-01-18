@@ -1,10 +1,18 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import emailjs from 'emailjs-com';
 import Modale from '../../components/modale/Modale.jsx';
 import './contactform.css';
 
 const ContactForm = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+        return () => {
+            window.scrollTo(0, 0);
+        };
+    }, []);
+
     const initialFormData = {
         firstName: '',
         lastName: '',
@@ -21,7 +29,6 @@ const ContactForm = () => {
 
     const openModal = (message) => {
         setModalMessage(message);
-        setModalIsOpen(true);
         setModalIsOpen(true);
     };
 
@@ -50,10 +57,12 @@ const ContactForm = () => {
         emailjs.send('service_dzeury9', 'template_zms473j', formData, 'PbrHOa8VsC-CtLjHu')
             .then((response) => {
                 openModal('Email envoyé avec succès');
+                resetForm();
             })
             .catch((error) => {
                 openModal('Erreur lors de l\'envoi de l\'email');
             });
+
     };
 
     const handleSubmit = (e) => {
@@ -67,29 +76,30 @@ const ContactForm = () => {
 
                 <div>
                     <label htmlFor="firstName">Prénom:</label>
-                    <input type="text" id="firstName" name="firstName" onChange={handleChange} />
+                    <input type="text" id="firstName" name="firstName" value={formData.firstName} onChange={handleChange} />
                 </div>
                 <div>
                     <label htmlFor="lastName">Nom:</label>
-                    <input type="text" id="lastName" name="lastName" onChange={handleChange} />
+                    <input type="text" id="lastName" name="lastName" value={formData.lastName} onChange={handleChange} />
                 </div>
                 <div>
                     <label htmlFor="company">Entreprise:</label>
-                    <input type="text" id="company" name="company" onChange={handleChange} />
+                    <input type="text" id="company" name="company" value={formData.company} onChange={handleChange} />
                 </div>
                 <div>
                     <label htmlFor="email">Email:<span style={{ color: '#eeb95f' }}>*</span></label>
-                    <input type="email" id="email" name="email" onChange={handleChange} required />
+                    <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} required />
                 </div>
                 <div>
                     <label htmlFor="phone">N° de téléphone:</label>
-                    <input type="tel" id="phone" name="phone" onChange={handleChange} />
+                    <input type="tel" id="phone" name="phone" value={formData.phone} onChange={handleChange} />
                 </div>
                 <div>
                     <label htmlFor="message">Message:<span style={{ color: '#eeb95f' }}>*</span></label>
                     <textarea className='textarea'
                         id="message"
                         name="message"
+                        value={formData.message}
                         onChange={handleChange}
                     ></textarea>
                 </div>
@@ -115,7 +125,7 @@ const ContactForm = () => {
                 isOpen={modalIsOpen}
                 closeModal={closeModal}
                 message={modalMessage}
-                resetForm={resetForm} // Passez la fonction de réinitialisation en tant que prop
+                resetForm={resetForm}
             />
         </div>
     );

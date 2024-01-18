@@ -2,6 +2,7 @@
     "competences": [
     
       {
+        "id": "01",
         "nom": "HTML & CSS",
         "icone": "./assets/icons/css-icon.png",
         "description": [
@@ -11,6 +12,7 @@
         ]
       },
       {
+        "id": "02",
         "nom": "Sass",
         "icone": "./assets/icons/sass-icon.png",
         "description": [
@@ -19,6 +21,7 @@
         ] 
       },
       {
+        "id": "03",
         "nom": "JavaScript",
         "icone": "./assets/icons/javascript.png",
         "description":[
@@ -29,6 +32,7 @@
         ] 
           },
       {
+        "id": "04",
         "nom": "React",
         "icone": "./assets/icons/react-icon.png",
         "description":[
@@ -39,6 +43,7 @@
         ]
       },
       {
+        "id": "05",
         "nom": "Redux",
         "icone": "./assets/icons/redux-icon.png",
         "description": [
@@ -48,6 +53,7 @@
         ]
       },
       {
+        "id": "06",
         "nom": "Gestion de projet",
         "icone": "./assets/icons/gestion-icon.png",
         "description":[
@@ -61,6 +67,7 @@
         ] 
       },
       {
+        "id": "07",
         "nom": "SEO",
         "icone": "./assets/icons/seo-icon.png",
         "description":[
@@ -71,6 +78,7 @@
 
       },
       {
+        "id": "08",
         "nom": "Debug",
         "icone": "./assets/icons/debug-icon.png",
         "description":[
@@ -81,6 +89,7 @@
 
       },
       {
+        "id": "09",
         "nom": "Sites web & design",
         "icone": "./assets/icons/sites-design-icon.png",
         "description":[

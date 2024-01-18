@@ -1,4 +1,4 @@
-import React from 'react';
+import { useEffect } from 'react';
 import Layout from '../../layouts/Layout'
 import { NavLink } from 'react-router-dom';
 // style
@@ -7,6 +7,14 @@ import Button from '../../components/button/Button.jsx'
 import silhouette from '../../assets/images/silhouette.png'
 
 const Home = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+        return () => {
+            window.scrollTo(0, 0);
+        };
+    }, []);
+
     return (
         <Layout >
             <div className="home">

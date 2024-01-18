@@ -33,16 +33,27 @@
     /* Masquer le débordement */
     transition: max-height 0.5s ease-in-out, transform-origin 0.5s ease-in-out;
     /* Utilisation de max-height et transform-origin pour la transition */
+    width: min-content;
+
+
 }
 
 .description p {
     margin: 0;
     line-height: 28px;
     margin-bottom: 20px;
+    font-size: 16px;
+    width: 280px;
 }
 
 .icone {
     margin-right: 20px;
+}
+
+span.nom img {
+    width: 20px;
+    margin-right: 10px;
+    opacity: 0.8;
 }
 
 .nom {
@@ -51,29 +62,40 @@
     color: #697a89;
 }
 
+/*--------- arrow ----------------*/
 .arrow {
     position: absolute;
     right: 0;
+    transition: transform 0.3s ease;
+    /* Ajoutez une transition à la transformation */
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    transform: translate(-20px, -20px);
 }
 
 .arrow-down {
-    width: 0px;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
     border-top: 9px solid #a4b6c5;
-    transform: translate(-20px, -20px);
 }
 
 .arrow-up {
-    width: 0px;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
     border-bottom: 12px solid #a4b6c5;
+    transform: rotate(180deg);
     transform: translate(-20px, -20px);
+    /* rotation initiale pour l'état actif */
 }
 
+.arrow.active {
+    transform: rotate(180deg);
+    /* rotation pour l'état actif */
+}
+
+/*------- button filtre realisations ----- */
+
+
 button.look-button {
-    text-shadow: 0px 1px 0px #9488888a;
+    text-shadow: 0px 1px 3px #9488888a;
     border: none;
     background-color: rgb(163 188 210 / 69%);
     border-radius: 2px;
@@ -82,11 +104,24 @@ button.look-button {
     padding: 2px;
     padding-left: 10px;
     padding-right: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+button.look-button:hover {
+    background-color: #eacc9cc4;
+    color: rgb(111, 115, 128);
+    text-shadow: 0px 0px 0px #9488888a;
+    transition: all 0.5s;
 }
 
 /*---------- mobile ------------*/
-@media only screen and (min-width:1600px) {
+@media only screen and (min-width:1500px) {
     .competence {
         min-width: 500px;
+    }
+
+    .description p {
+        width: 355px;
     }
 }
