@@ -91,7 +91,7 @@
       {
         "id": "09",
         "nom": "Sites web & design",
-        "icone": "./assets/icons/sites-design-icon.png",
+        "icone": "./assets/icons/sites-icon.png",
         "description":[
           "Déployer un site statique en ligne",
           "https://hwweb.fr/prestations/sites-internet/"
