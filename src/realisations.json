@@ -38,7 +38,7 @@
 			},
 			{
 				"type": "video",
-				"url": "./assets/videos/ohmyfood.mp4",
+				"url": "/assets/videos/ohmyfood.mp4",
 				"description" : "Mettre en œuvre des animations <strong>CSS</strong>"
 			},
 			{
