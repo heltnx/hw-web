@@ -33,12 +33,12 @@
 		[
 			{
 				"type": "image",
-				"url": "https://heltnx.github.io/hw-web/assets/images/ohmyfood.jpg",
+				"url": "./assets/images/ohmyfood.jpg",
 				"description" : "Intégrer une <strong>maquette en mobile-first</strong>"
 			},
 			{
 				"type": "video",
-				"url": "/assets/videos/ohmyfood.mp4",
+				"url": "./assets/videos/ohmyfood.mp4",
 				"description" : "Mettre en œuvre des animations <strong>CSS</strong>"
 			},
 			{
