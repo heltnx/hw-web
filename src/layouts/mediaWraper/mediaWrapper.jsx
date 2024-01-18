@@ -9,14 +9,14 @@ const MediaWrapper = ({ mediaList }) => {
         <div className="videos-container">
             {mediaList.map((media, index) => (
                 // Check if the media is a video or an image
-                'imgage' === media.type ? (
+                'image' === media.type ? (
                     // If it's a React element (image), render it as is
                     <div key={index} className="imageContain">
                         <img src={media.url} alt={media.description} />
                     </div>
                 ) : (
                     // If it's a string (video URL), render the Video component
-                    <Video key={index} url={media.media} alt={media.description} />
+                    <Video key={index} url={media.url} alt={media.description} />
                 )
             ))}
         </div>

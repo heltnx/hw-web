@@ -42,7 +42,7 @@ const Realisations = () => {
                                     <p dangerouslySetInnerHTML={{ __html: realisation.description }} />
                                 </div>
                                 <div>
-                                    <p><a href={realisation.link} target='blank'>Voir le site :</a></p>
+                                    <p><a href={realisation.link} target='blank'>Voir le site</a></p>
                                 </div>
                             </div>
                         )
