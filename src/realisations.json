@@ -33,7 +33,7 @@
 		[
 			{
 				"type": "image",
-				"url": "./assets/images/ohmyfood.jpg",
+				"url": "https://heltnx.github.io/hw-web/assets/images/ohmyfood.jpg",
 				"description" : "Intégrer une <strong>maquette en mobile-first</strong>"
 			},
 			{
