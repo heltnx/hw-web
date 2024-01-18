@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import Layout from '../../layouts/Layout';
-import VideoWrapper from '../../layouts/mediaWraper/mediaWrapper.jsx';
+import MediaWraper from '../../layouts/mediaWraper/mediaWrapper.jsx';
 import realisationsData from '../../realisations.json';
 import './realisations.css';
 
@@ -36,8 +36,8 @@ const Realisations = () => {
                     {realisationsData.realisations.map((realisation) => (
                         isRealisationTargeted(realisation) && (
                             <div key={realisation.id}>
-                                <h2>{realisation.projectTitle}</h2>
-                                <VideoWrapper mediaList={realisation.medias} />
+                                <h2 dangerouslySetInnerHTML={{ __html: realisation.projectTitle }} />
+                                <MediaWraper mediaList={realisation.medias} />
                                 <div>
                                     <p dangerouslySetInnerHTML={{ __html: realisation.description }} />
                                 </div>
