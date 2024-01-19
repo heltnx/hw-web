@@ -46,6 +46,7 @@
     margin-top: 40px;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 /* slider */
@@ -58,7 +59,7 @@
     padding: 0 15%;
     padding-bottom: 370px;
     flex-wrap: wrap;
-
+    overflow: hidden;
 }
 
 .textRealisation {
@@ -135,4 +136,33 @@
 
 
 /*---------- mobile ----------------*/
-@media only screen and (max-width:680px) {}
+
+/*-- 1500 --*/
+
+@media only screen and (max-width:1500px) {
+    .mesRealisations {
+        margin-top: 0;
+    }
+
+    .slider {
+        padding-bottom: 250px;
+    }
+
+    .competencesPart {
+        padding-bottom: 20px;
+    }
+
+}
+
+/*-- 680 --*/
+@media only screen and (max-width:680px) {
+    .a-propos .text {
+        width: 80%;
+        min-width: 360px;
+    }
+
+    .textRealisation {
+        min-width: 360px;
+    }
+
+}

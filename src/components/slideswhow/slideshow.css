@@ -5,12 +5,12 @@
     height: 400px;
     overflow: hidden;
     border-radius: 3px;
-    top: 180px;
+    top: 90px;
     min-width: 600px;
     width: 50%;
     flex-grow: 1;
     border: 5px solid #fde4bc;
-    ;
+
 }
 
 
@@ -63,9 +63,10 @@
 
 
 /* Mobile */
-@media (max-width: 600px) {
+@media (max-width: 630px) {
     .slideshow {
         height: 255px;
+        width: 100%;
     }
 
 }
