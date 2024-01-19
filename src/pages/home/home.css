@@ -40,7 +40,7 @@
     font-size: 50px;
 }
 
-/* mes realisations */
+/*---- mes realisations ---*/
 .mesRealisations {
     background-image: url(../../assets/images/banner.jpg);
     margin-top: 40px;
@@ -54,7 +54,7 @@
     align-items: center;
     justify-content: space-evenly;
     padding: 30px;
-    background: linear-gradient(to bottom, #f0f8ffb9, #d4e1edb8, rgb(163 188 210 / 0%));
+    background: linear-gradient(to bottom, #f2f6f9, #d4e1edb8, rgb(163 188 210 / 0%));
     padding: 0 15%;
     padding-bottom: 370px;
     flex-wrap: wrap;
@@ -82,6 +82,7 @@
     margin: 0;
     text-align: center;
     padding: 10px;
+    background: transparent;
 }
 
 .home p {
@@ -93,6 +94,45 @@
     text-align: center;
     padding: 20px;
 }
+
+/* comptences part */
+
+.competencesPart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+    justify-content: right;
+    width: 100%;
+    background: linear-gradient(to top, #afc4d8, #d4e1edb8, rgba(152, 176, 198, 0));
+}
+
+.competencesPart img {
+    max-width: 100%;
+}
+
+.competencesPart p {
+    padding-top: 10px;
+    width: 260px;
+    padding-left: 30px;
+    /* padding: 30px; */
+    color: rgb(47, 56, 62);
+    padding-bottom: 20px;
+}
+
+.competencesPart Button {
+    display: block;
+    margin: 10px auto;
+}
+
+.competencesPart a {
+    font-weight: 600;
+}
+
+
 
 /*---------- mobile ----------------*/
 @media only screen and (max-width:680px) {}

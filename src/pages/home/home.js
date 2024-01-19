@@ -59,13 +59,16 @@ const Home = () => {
                             </div>
 
                         </div>
-
                     </div>
-                    <div className='comepetencesPart' >
-                        <p>Vous prefférez trier les realisations utilisant des competences sprécifiques ? </p>
 
-                        <Button >
-                            <Link to="/competences">Mes competences</Link>
+                    <div className='competencesPart'>
+                        <div>
+                            <img src={process.env.PUBLIC_URL + "/assets/images/progress.png"} alt="competences progression" />
+
+                        </div>
+                        <p>Vous préférez le détail des compétences évaluées avec un acces aux réalisations qui les utilisent, accedez à la page:</p>
+                        <Button>
+                            <Link to="/competences">Mes compétences</Link>
                         </Button>
                     </div>
 
