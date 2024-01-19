@@ -63,7 +63,7 @@ span.nom img {
 }
 
 /*--------- arrow ----------------*/
-.arrow {
+.competence .arrow {
     position: absolute;
     right: 0;
     transition: transform 0.3s ease;
@@ -75,18 +75,18 @@ span.nom img {
     transform: translate(-20px, -20px);
 }
 
-.arrow-down {
+.competence .arrow-down {
     border-top: 9px solid #a4b6c5;
 }
 
-.arrow-up {
+.competence .arrow-up {
     border-bottom: 12px solid #a4b6c5;
     transform: rotate(180deg);
     transform: translate(-20px, -20px);
     /* rotation initiale pour l'état actif */
 }
 
-.arrow.active {
+.competence .arrow.active {
     transform: rotate(180deg);
     /* rotation pour l'état actif */
 }

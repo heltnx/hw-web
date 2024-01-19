@@ -5,6 +5,7 @@ import { NavLink } from 'react-router-dom';
 import './home.css'
 import Button from '../../components/button/Button.jsx'
 import silhouette from '../../assets/images/silhouette.png'
+import Slideshow from '../../components/slideswhow/Slideshow.jsx';
 
 const Home = () => {
 
@@ -39,7 +40,12 @@ const Home = () => {
                             <NavLink to="/contact" >Contact</NavLink>
                         </Button>
                     </div>
-
+                </div>
+                <div className="mesRealisations">
+                    <h2>Mes Réalisations</h2>
+                    <div className='slider'>
+                        <Slideshow />
+                    </div>
                 </div>
             </div>
         </Layout>

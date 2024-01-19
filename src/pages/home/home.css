@@ -34,6 +34,22 @@
     font-size: 50px;
 }
 
+/* mes realisations */
+.mesRealisations {
+    background-image: url(../../assets/images/banner.jpg);
+    height: 800px;
+    margin-top: 40px;
+}
+
+/* slider */
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+
+}
+
 /*---------- mobile ----------------*/
 @media only screen and (max-width:850px) {
 
