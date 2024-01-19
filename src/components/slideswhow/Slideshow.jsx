@@ -15,12 +15,12 @@ const Slideshow = ({ title }) => {
     useEffect(() => {
         const intervalId = setInterval(() => {
             goToNext();
-        }, 2500); // Change d'image toutes les 1000 ms (1 seconde)
+        }, 2000); // Change d'image toutes les 1000 ms (1 seconde)
 
         return () => clearInterval(intervalId); // Nettoie la minuterie lors du démontage du composant
 
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, []); // Les dépendances vides signifient que cet effet ne s'exécute qu'une seule fois au montage
+    }, []); //ne s'exécute qu'une seule fois au montage
 
 
     const goToNext = () => {

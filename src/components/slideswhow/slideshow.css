@@ -4,8 +4,15 @@
     width: 40%;
     height: 400px;
     overflow: hidden;
-    border-radius: 5px;
+    border-radius: 3px;
+    top: 180px;
+    min-width: 600px;
+    width: 50%;
+    flex-grow: 1;
+    border: 5px solid #fde4bc;
+    ;
 }
+
 
 .slideshow img {
     width: 100%;
@@ -41,6 +48,16 @@
     z-index: 2;
     height: 100%;
     left: 50%;
+}
+
+.pagination {
+
+    background-color: #fde1b4;
+    width: max-content;
+    font-weight: 400;
+    color: rgb(111, 115, 128);
+    border-radius: 20px;
+    padding: 10px;
 }
 
 

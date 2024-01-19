@@ -3,8 +3,15 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    flex-grow: 1;
     gap: 30px;
+    flex-wrap: wrap;
+}
+
+.a-propos .text {
+    width: 50%;
+    background-color: #b6cde130;
+    padding: 20px;
+    min-width: 600px;
 }
 
 .a-propos img {
@@ -12,10 +19,8 @@
     min-width: 250px;
 }
 
-.a-propos .text {
-    width: 80%;
-    background-color: #b6cde130;
-    padding: 20px;
+.home span {
+    padding: 30px 0;
 }
 
 /*....... partie contact ..........*/
@@ -26,6 +31,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
+    width: 40%;
 
 }
 
@@ -37,8 +43,9 @@
 /* mes realisations */
 .mesRealisations {
     background-image: url(../../assets/images/banner.jpg);
-    height: 800px;
     margin-top: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* slider */
@@ -47,20 +54,45 @@
     align-items: center;
     justify-content: space-evenly;
     padding: 30px;
+    background: linear-gradient(to bottom, #f0f8ffb9, #d4e1edb8, rgb(163 188 210 / 0%));
+    padding: 0 15%;
+    padding-bottom: 370px;
+    flex-wrap: wrap;
 
+}
+
+.textRealisation {
+    position: relative;
+    top: 180px;
+    width: 40%;
+    min-width: 600px;
+    background-color: rgb(255 255 255 /85%);
+    flex-grow: 1;
+    padding: 20px;
+    border: 5px solid #ccc;
+}
+
+.textRealisation button {
+    letter-spacing: 1px;
+}
+
+.home h2 {
+    color: #53728d;
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+.home p {
+    padding: 5px;
+    margin: auto;
+}
+
+.realisationsButton {
+    text-align: center;
+    padding: 20px;
 }
 
 /*---------- mobile ----------------*/
-@media only screen and (max-width:850px) {
-
-    .a-propos {
-        flex-wrap: wrap;
-    }
-
-    .a-propos .text {
-        width: 100%;
-        background-color: #b6cde130;
-        padding: 20px;
-    }
-
-}
+@media only screen and (max-width:680px) {}

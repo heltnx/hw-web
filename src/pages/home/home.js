@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import Layout from '../../layouts/Layout'
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 // style
 import './home.css'
 import Button from '../../components/button/Button.jsx'
@@ -37,15 +37,38 @@ const Home = () => {
                         <img src={silhouette} alt="silouette travaillant sur un ordinateur, dans un ordinateur" />
                         <span> Mon profil vous intéresse ? <br></br>n'hésitez pas à me contacter !</span>
                         <Button>
-                            <NavLink to="/contact" >Contact</NavLink>
+                            <Link to="/contact" >Contact</Link>
                         </Button>
                     </div>
                 </div>
                 <div className="mesRealisations">
-                    <h2>Mes Réalisations</h2>
+
                     <div className='slider'>
                         <Slideshow />
+                        <div className='textRealisation'>
+                            <h2>Mes Réalisations</h2>
+                            <p>Chaque projet est une étape de mon parcours, démontrant ma capacité à transformer des concepts en expériences utilisateur concrètes.</p>
+                            <p>Ces réalisations reflètent ma passion pour la création de sites web fonctionnels, esthétiques et intuitifs.</p>
+                            <p>En tant que professionnelle du web, j'ai également obtenu le titre de webdesigner et réalisé quelques projets en 2020.
+                                Découvrez mon <Link to="https://hwweb.fr/" target='blank'>" Portfolio de Webdesigner "</Link>
+                            </p>
+                            <div className="realisationsButton">
+                                <Button >
+                                    <Link to="/realisations" >Réalisations d'Intégration-web</Link>
+                                </Button>
+                            </div>
+
+                        </div>
+
                     </div>
+                    <div className='comepetencesPart' >
+                        <p>Vous prefférez trier les realisations utilisant des competences sprécifiques ? </p>
+
+                        <Button >
+                            <Link to="/competences">Mes competences</Link>
+                        </Button>
+                    </div>
+
                 </div>
             </div>
         </Layout>
