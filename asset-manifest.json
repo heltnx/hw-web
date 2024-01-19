@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hw-web/static/css/main.a054ebbc.css",
-    "main.js": "/hw-web/static/js/main.1152e9e3.js",
+    "main.css": "/hw-web/static/css/main.bf51f17f.css",
+    "main.js": "/hw-web/static/js/main.4f082c41.js",
     "reactPlayerYouTube.js": "/hw-web/static/js/reactPlayerYouTube.f46c0d23.chunk.js",
     "reactPlayerSoundCloud.js": "/hw-web/static/js/reactPlayerSoundCloud.47fc242b.chunk.js",
     "reactPlayerVimeo.js": "/hw-web/static/js/reactPlayerVimeo.3551d11b.chunk.js",
@@ -16,14 +16,19 @@
     "reactPlayerFilePlayer.js": "/hw-web/static/js/reactPlayerFilePlayer.f80877a9.chunk.js",
     "reactPlayerPreview.js": "/hw-web/static/js/reactPlayerPreview.2dd8676d.chunk.js",
     "static/js/787.ef26e7c6.chunk.js": "/hw-web/static/js/787.ef26e7c6.chunk.js",
+    "static/media/banner.jpg": "/hw-web/static/media/banner.cec807469b682510e132.jpg",
     "static/media/Sitka.ttf": "/hw-web/static/media/Sitka.2c2261baf13411a52261.ttf",
     "static/media/silhouette.png": "/hw-web/static/media/silhouette.5320d5af2eefa77c0be5.png",
     "static/media/Montserrat-Regular.ttf": "/hw-web/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/kasa.jpg": "/hw-web/static/media/kasa.00a375e680775e3a8f4e.jpg",
+    "static/media/qwenta.jpg": "/hw-web/static/media/qwenta.7f5adae2203cc8eb74ac.jpg",
+    "static/media/ohmyfood.jpg": "/hw-web/static/media/ohmyfood.4d5cd70d70962f0af359.jpg",
+    "static/media/argentbank.jpg": "/hw-web/static/media/argentbank.e169e0566441bd530cf1.jpg",
     "static/media/logo.png": "/hw-web/static/media/logo.48aa6acd6f3e89baff1f.png",
     "static/media/fond-1024x446.jpg": "/hw-web/static/media/fond-1024x446.00a4d03ad097811dc7e0.jpg",
     "index.html": "/hw-web/index.html",
-    "main.a054ebbc.css.map": "/hw-web/static/css/main.a054ebbc.css.map",
-    "main.1152e9e3.js.map": "/hw-web/static/js/main.1152e9e3.js.map",
+    "main.bf51f17f.css.map": "/hw-web/static/css/main.bf51f17f.css.map",
+    "main.4f082c41.js.map": "/hw-web/static/js/main.4f082c41.js.map",
     "reactPlayerYouTube.f46c0d23.chunk.js.map": "/hw-web/static/js/reactPlayerYouTube.f46c0d23.chunk.js.map",
     "reactPlayerSoundCloud.47fc242b.chunk.js.map": "/hw-web/static/js/reactPlayerSoundCloud.47fc242b.chunk.js.map",
     "reactPlayerVimeo.3551d11b.chunk.js.map": "/hw-web/static/js/reactPlayerVimeo.3551d11b.chunk.js.map",
@@ -40,7 +45,7 @@
     "787.ef26e7c6.chunk.js.map": "/hw-web/static/js/787.ef26e7c6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a054ebbc.css",
-    "static/js/main.1152e9e3.js"
+    "static/css/main.bf51f17f.css",
+    "static/js/main.4f082c41.js"
   ]
 }
