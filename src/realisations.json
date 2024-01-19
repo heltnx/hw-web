@@ -115,5 +115,31 @@
 		],
 		"description" : "Initialiser une application avec <strong><nobr>Create React App</nobr></strong>",
 		"link": ""
+	},
+	{
+		"id": "6",
+		"projectTitle" : "Optimisez le <strong>référencement</strong> d'un site de photographe",
+		"anchor": "SEO",
+		"medias" : 
+		[
+			{
+				"type": "image",
+				"url": "./assets/images/accessibilite.jpg",
+				"description" : "Remettre un <strong>rapport d'accessibilité<strong> détaillé"
+			},
+			{
+				"type": "image",
+				"url": "./assets/images/comparatif.jpg",
+				"description" : "<strong>Optimiser la performance<strong> d'un site web"
+			},
+			
+			{
+				"type": "image",
+				"url": "./assets/images/snippet.jpg",
+				"description" : "utilisation de Lighthouse, audit Rich Snippet, wave"
+			}
+		],
+		"description" : "",
+		"link": ""
 	}
 ]}
