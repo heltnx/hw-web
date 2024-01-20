@@ -66,7 +66,7 @@ const Home = () => {
                             <img src={process.env.PUBLIC_URL + "/assets/images/progress.png"} alt="competences progression" />
 
                         </div>
-                        <p>Vous préférez le détail des compétences évaluées avec un acces aux réalisations qui les utilisent, accedez à la page:</p>
+                        <p>Vous préférez le détail des compétences évaluées, avec un acces aux réalisations qui les utilisent, accedez à la page:</p>
                         <Button>
                             <Link to="/competences">Mes compétences</Link>
                         </Button>

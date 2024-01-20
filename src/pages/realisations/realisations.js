@@ -39,11 +39,8 @@ const Realisations = () => {
                                 <h2 dangerouslySetInnerHTML={{ __html: realisation.projectTitle }} />
                                 <MediaWrapper mediaList={realisation.medias} />
                                 <div>
-                                    {realisation.description[0]?.lines?.map((line, index, array) => (
-                                        <React.Fragment key={index}>
-                                            <p dangerouslySetInnerHTML={{ __html: line }} />
-                                            {index < array.length - 1 && <br />}
-                                        </React.Fragment>
+                                    {realisation.description && realisation.description.map((desc, index) => (
+                                        <p key={index} dangerouslySetInnerHTML={{ __html: desc }} />
                                     ))}
                                 </div>
 

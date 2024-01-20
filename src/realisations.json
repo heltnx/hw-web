@@ -1,186 +1,193 @@
-{ "realisations":[
-	{
+{
+	"realisations": [
+	  {
 		"id": "1",
-		"projectTitle" : "Création de la page d'accueil d'une agence de voyage avec <nobr><strong>HTML</strong> &amp;<strong>CSS</strong></nobr>",
+		"projectTitle": "Création de la page d'accueil d'une agence de voyage avec <nobr><strong>HTML</strong> &amp;<strong>CSS</strong></nobr>",
 		"anchor": "HTML, CSS",
-		"medias" : 
-		[
-			{
-				"type": "video",
-				"url": "./assets/videos/gabari-tab.mp4"
-			},
-			{
-				"type": "video",
-				"url": "./assets/videos/gabari-ordi.mp4"
-			},
-			{
-				"type": "video",
-				"url": "./assets/videos/gabari-mobile.mp4"
-			}
+		"medias": [
+		  {
+			"type": "video",
+			"url": "./assets/videos/gabari-tab.mp4"
+		  },
+		  {
+			"type": "video",
+			"url": "./assets/videos/gabari-ordi.mp4"
+		  },
+		  {
+			"type": "video",
+			"url": "./assets/videos/gabari-mobile.mp4"
+		  }
 		],
 		"description": [
-			{
-				"lines": [
-					"Implémenter une interface <strong>'responsive'</strong>",
-					"Intégrer du contenu <strong>conformément à une maquette</strong> avec <nobr><strong>HTML</strong> et <strong>CSS</strong></nobr>"
-				]
-			}
+		  "Implémenter une interface <strong>'responsive'</strong>",
+		  "Intégrer du contenu <strong>conformément à une maquette</strong> avec <nobr><strong>HTML</strong> et <strong>CSS</strong></nobr>"
 		],
-			
-	
-
-			"link": "https://heltnx.github.io/booki-starter-code-master/"
-	},
-	{
+		"link": "https://heltnx.github.io/booki-starter-code-master/"
+	  },
+	  {
 		"id": "2",
-		"projectTitle" : "Améliorez l'interface d'un site mobile avec des animations <strong>CSS</strong>",
+		"projectTitle": "Améliorez l'interface d'un site mobile avec des animations <strong>CSS</strong>",
 		"anchor": "HTML, CSS, GitHub",
-		"medias" : 
-		[
-			{
-				"type": "image",
-				"url": "./assets/images/ohmyfood.jpg"
-			},
-			{
-				"type": "video",
-				"url": "./assets/videos/ohmyfood.mp4"
-			},
-			{
-				"type": "image",
-				"url": "./assets/images/ohmyfood-sass-git.jpg"
-			}
+		"medias": [
+		  {
+			"type": "image",
+			"url": "./assets/images/ohmyfood.jpg"
+		  },
+		  {
+			"type": "video",
+			"url": "./assets/videos/ohmyfood.mp4"
+		  },
+		  {
+			"type": "image",
+			"url": "./assets/images/ohmyfood-sass-git.jpg"
+		  }
 		],
-
 		"description": [
-			{
-				"lines": [
-					"Versionner son projet avec <strong><nobr>Git et Github</nobr></strong>, utiliser<strong> Sass </strong>",
-					"Intégrer une <strong>maquette en mobile-first</strong>",
-					"Mettre en œuvre des animations <strong>CSS</strong>"
-				]
-			}
+		  "Versionner son projet avec <strong><nobr>Git et Github</nobr></strong>, utiliser<strong> Sass </strong>",
+		  "Intégrer une <strong>maquette en mobile-first</strong>",
+		  "Mettre en œuvre des animations <strong>CSS</strong>"
 		],
-
 		"link": "https://heltnx.github.io/Ohmyfood/"
-	},
-	{
+	  },
+	  {
 		"id": "3",
-		"projectTitle" : "Premiers pas sur le langage <strong>JavaScript</strong>",
+		"projectTitle": "Premiers pas sur le langage <strong>JavaScript</strong>",
 		"anchor": "HTML, CSS, javaScript",
-		"medias" : 
-		[
-			{
-				"type": "image",
-				"url": "./assets/images/caroussel.jpg"
-			}
+		"medias": [
+		  {
+			"type": "image",
+			"url": "./assets/images/caroussel.jpg"
+		  }
 		],
-
 		"description": [
-			{
-				"lines": [
-					"Programmer un <strong>carrousel</strong> avec défilement infini, en utilisant les fondamentaux de <strong>JavaScript</strong>"
-				]
-			}
+		  "Programmer un <strong>carrousel</strong> avec défilement infini, en utilisant les fondamentaux de <strong>JavaScript</strong>"
 		],
-
 		"link": "https://heltnx.github.io/Print-it-JS-main/"
-	},
-	{
+	  },
+	  {
 		"id": "4",
-		"projectTitle" : "Créez une page web dynamique avec <strong>JavaScript</strong>",
+		"projectTitle": "Créez une page web dynamique avec <strong>JavaScript</strong>",
 		"anchor": "javaScript",
-		"medias" : 
-		[
-			{
-				"type": "image",
-				"url": "./assets/images/sophie-gallery.jpg"
-			},
-			{
-				"type": "video",
-				"url": "./assets/videos/Sophie-Bluel.mp4"
-			},
-			{
-				"type": "image",
-				"url": "./assets/images/sophie-formulaire.jpg"
-			}
+		"medias": [
+		  {
+			"type": "image",
+			"url": "./assets/images/sophie-gallery.jpg"
+		  },
+		  {
+			"type": "video",
+			"url": "./assets/videos/Sophie-Bluel.mp4"
+		  },
+		  {
+			"type": "image",
+			"url": "./assets/images/sophie-formulaire.jpg"
+		  }
 		],
-
 		"description": [
-			{
-				"lines": [
-					"Gérer les <strong>événements utilisateurs</strong> avec <strong>JavaScript</strong>",
-					"Programmer en utilisant les fondamentaux de <strong>JavaScript</strong>",
-					"Récupérer les données utilisateurs via des <strong>formulaires</strong>"
-				]
-			}
+		  "Gérer les <strong>événements utilisateurs</strong> avec <strong>JavaScript</strong>",
+		  "Programmer en utilisant les fondamentaux de <strong>JavaScript</strong>",
+		  "Récupérer les données utilisateurs via des <strong>formulaires</strong>"
 		],
-
 		"link": ""
-	},
-	{
+	  },
+	  {
 		"id": "5",
-		"projectTitle" : "Créez une page web dynamique avec <strong>JavaScript</strong>",
+		"projectTitle": "Créez une page web dynamique avec <strong>JavaScript</strong>",
 		"anchor": "HTML, CSS, Sass, React",
-		"medias" : 
-		[
-			{
-				"type": "image",
-				"url": "./assets/images/router.jpg"
-			},
-			{
-				"type": "video",
-				"url": "./assets/videos/kasa.mp4"
-			},
-			{
-				"type": "image",
-				"url": "./assets/images/kasa.jpg"
-			}
+		"medias": [
+		  {
+			"type": "image",
+			"url": "./assets/images/router.jpg"
+		  },
+		  {
+			"type": "video",
+			"url": "./assets/videos/kasa.mp4"
+		  },
+		  {
+			"type": "image",
+			"url": "./assets/images/kasa.jpg"
+		  }
 		],
-
 		"description": [
-			{
-				"lines": [
-					"Initialiser une application avec <strong><nobr>Create React App</nobr></strong>",
-					"Configurer la navigation entre les pages de l'application avec <nobr><strong>React Router</nobr></strong>",
-					"Développer une interface web avec <strong>Sass</strong>",
-                    "Mettre en œuvre des <strong><nobr>animations CSS</nobr></strong>",
-					"Développer des éléments de l'interface d'un site web grâce à des <strong>composants React</strong>"
-				]
-			}
+		  "Initialiser une application avec <strong><nobr>Create React App</nobr></strong>",
+		  "Développer des éléments de l'interface d'un site web grâce à des <strong>composants React</strong>",
+		  "Configurer la navigation entre les pages de l'application avec <nobr><strong>React Router</nobr></strong>",
+		  "Développer une interface web avec <strong>Sass</strong>",
+		  "Mettre en œuvre des <strong><nobr>animations CSS</nobr></strong>"
+		  
 		],
-
 		"link": ""
-	},
-	{
+	  },
+	  {
 		"id": "6",
-		"projectTitle" : "Optimisez le <strong>référencement</strong> d'un site de photographe",
-		"anchor": "SEO",
-		"medias" : 
-		[
-			{
-				"type": "image",
-				"url": "./assets/images/accessibilite.jpg"
-			},
-			{
-				"type": "image",
-				"url": "./assets/images/comparatif.jpg"
-			},
-			{
-				"type": "image",
-				"url": "./assets/images/snippet.jpg"
-			}
+		"projectTitle": "Implémentez le front-end d'une application bancaire avec <strong>React</strong> et <strong>Redux</strong>",
+		"anchor": "React, Redux, Swagger",
+		"medias": [
+		  {
+			"type": "image",
+			"url": "./assets/images/userEdit.jpg"
+		  },
+		  {
+			"type": "image",
+			"url": "./assets/images/argentbank.jpg"
+		  },
+		  {
+			"type": "image",
+			"url": "./assets/images/swagger1003.jpg"
+		  }
 		],
-		
 		"description": [
-			{
-				"lines": [
-					"Remettre un <strong>rapport d'accessibilité<strong> détaillé",
-					"<strong>Optimiser la performance</strong> d'un site web",
-					"Utilisation de <strong>Lighthouse, audit Rich Snippet, Wave<strong>"
-				]
-			}
+		  "<strong>Afficher les données</strong> du back end sur l'interface via des <strong>appels API</strong>",
+		  "<strong>Configurer des routes API</strong> pour la communication client / serveur",
+		  "Implémenter la gestion des données avec <strong>Redux</strong> pour assurer le fonctionnement du front"
 		],
-
 		"link": ""
-	}
-]}
+	  },
+	  {
+		"id": "7",
+		"projectTitle": "Optimisez le <strong>référencement</strong> d'un site de photographe",
+		"anchor": "SEO",
+		"medias": [
+		  {
+			"type": "image",
+			"url": "./assets/images/accessibilite.jpg"
+		  },
+		  {
+			"type": "image",
+			"url": "./assets/images/comparatif.jpg"
+		  },
+		  {
+			"type": "image",
+			"url": "./assets/images/snippet.jpg"
+		  }
+		],
+		"description": [
+		  "Remettre un <strong>rapport d'accessibilité<strong> détaillé",
+		  "<strong>Optimiser la performance</strong> d'un site web",
+		  "Utilisation de <strong>Lighthouse, audit Rich Snippet, Wave</strong>"
+		],
+		"link": ""
+	  },
+	  {
+		"id": "8",
+		"projectTitle": " <strong>Debuggez</strong> une application <strong>React.JS</strong>",
+		"anchor": "Debug, react",
+		"medias": [
+		  {
+			"type": "image",
+			"url": "./assets/images/test.jpg"
+		  },
+		  {
+			"type": "image",
+			"url": "./assets/images/recettes.jpg"
+		  }
+		],
+		"description": [
+		  "<strong>Débugger</strong> un site web grâce aux <strong>Chrome DevTools</strong>",
+		  "Rédiger un <strong>cahier de recette</strong> pour <strong>tester un site</strong>",
+		  "Réalisation de <strong>tests fonctionnels</strong>"
+		],
+		"link": ""
+	  }
+	]
+  }
+  
