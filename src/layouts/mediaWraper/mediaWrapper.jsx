@@ -2,23 +2,28 @@ import React from 'react';
 import Video from '../../components/video/Video';
 import './mediaWrapper.css';
 
+
 const MediaWrapper = ({ mediaList }) => {
+    // Vérifier si l'écran est de taille mobile
     const isMobile = window.matchMedia('(max-width: 768px)').matches;
 
     return (
+        // Conteneur principal pour les vidéos et images
         <div className="videos-container">
+            {/* Mapper à travers la liste de médias */}
             {mediaList.map((media, index) => (
-                // Check if the media is a video or an image
+                // Vérifier si le média est une image
                 'image' === media.type ? (
-                    // If it's a React element (image), render it as is
+                    // Si c'est un élément React (image), le rendre tel quel
                     <div key={index} className="imageContain">
                         <img
-                            src={isMobile ? `./assets/images/mobile/${media.url.split('/').pop()}` : media.url}
+                            // Utiliser une URL différente pour les appareils mobiles si non l'url du fichier json
+                            src={isMobile ? `/assets/images/mobile/${media.url.split('/').pop()}` : media.url}
                             alt={media.description}
                         />
                     </div>
                 ) : (
-                    // If it's a string (video URL), render the Video component
+                    // Si c'est une chaîne (URL vidéo), rendre le composant Video
                     <Video key={index} url={media.url} alt={media.description} />
                 )
             ))}
@@ -26,5 +31,5 @@ const MediaWrapper = ({ mediaList }) => {
     );
 };
 
+// Exporter le composant MediaWrapper
 export default MediaWrapper;
-
