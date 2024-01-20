@@ -7,23 +7,29 @@
 		[
 			{
 				"type": "video",
-				"url": "./assets/videos/gabari-tab.mp4",
-				"description" : "Tablette"
+				"url": "./assets/videos/gabari-tab.mp4"
 			},
 			{
 				"type": "video",
-				"url": "./assets/videos/gabari-ordi.mp4",
-				"description" : "Desktop"
+				"url": "./assets/videos/gabari-ordi.mp4"
 			},
 			{
 				"type": "video",
-				"url": "./assets/videos/gabari-mobile.mp4",
-				"description" : "Mobile"
+				"url": "./assets/videos/gabari-mobile.mp4"
 			}
 		],
-		"description" : 
-			"Implémenter une interface <strong >'responsive'</strong>, et Intégrer du contenu <strong>conformément à une maquette</strong> avec <nobr><strong >HTML</strong> et <strong >CSS</strong></nobr>",
-		"link": "https://heltnx.github.io/booki-starter-code-master/"
+		"description": [
+			{
+				"lines": [
+					"Implémenter une interface <strong>'responsive'</strong>",
+					"Intégrer du contenu <strong>conformément à une maquette</strong> avec <nobr><strong>HTML</strong> et <strong>CSS</strong></nobr>"
+				]
+			}
+		],
+			
+	
+
+			"link": "https://heltnx.github.io/booki-starter-code-master/"
 	},
 	{
 		"id": "2",
@@ -33,21 +39,28 @@
 		[
 			{
 				"type": "image",
-				"url": "./assets/images/ohmyfood.jpg",
-				"description" : "Intégrer une <strong>maquette en mobile-first</strong>"
+				"url": "./assets/images/ohmyfood.jpg"
 			},
 			{
 				"type": "video",
-				"url": "./assets/videos/ohmyfood.mp4",
-				"description" : "Mettre en œuvre des animations <strong>CSS</strong>"
+				"url": "./assets/videos/ohmyfood.mp4"
 			},
 			{
 				"type": "image",
-				"url": "./assets/images/ohmyfood-sass-git.jpg",
-				"description" : "Versionner son projet avec <strong><nobr>Git et Github</nobr></strong><br></br> utiliser<strong> Sass </strong>."
+				"url": "./assets/images/ohmyfood-sass-git.jpg"
 			}
 		],
-		"description" : "",
+
+		"description": [
+			{
+				"lines": [
+					"Versionner son projet avec <strong><nobr>Git et Github</nobr></strong>, utiliser<strong> Sass </strong>",
+					"Intégrer une <strong>maquette en mobile-first</strong>",
+					"Mettre en œuvre des animations <strong>CSS</strong>"
+				]
+			}
+		],
+
 		"link": "https://heltnx.github.io/Ohmyfood/"
 	},
 	{
@@ -58,11 +71,18 @@
 		[
 			{
 				"type": "image",
-				"url": "./assets/images/caroussel.jpg",
-				"description" : ""
+				"url": "./assets/images/caroussel.jpg"
 			}
 		],
-		"description" : "Programmer un <strong>carrousel<strong/> avec défilement infini, en utilisant les fondamentaux de <strong>JavaScript</strong>",
+
+		"description": [
+			{
+				"lines": [
+					"Programmer un <strong>carrousel</strong> avec défilement infini, en utilisant les fondamentaux de <strong>JavaScript</strong>"
+				]
+			}
+		],
+
 		"link": "https://heltnx.github.io/Print-it-JS-main/"
 	},
 	{
@@ -73,21 +93,28 @@
 		[
 			{
 				"type": "image",
-				"url": "./assets/images/sophie-gallery.jpg",
-				"description" : "Gérer les événements utilisateurs avec <strong>JavaScript</strong>"
+				"url": "./assets/images/sophie-gallery.jpg"
 			},
 			{
 				"type": "video",
-				"url": "./assets/videos/Sophie-Bluel.mp4",
-				"description" : "Programmer en utilisant les fondamentaux de <strong>JavaScript</strong>"
+				"url": "./assets/videos/Sophie-Bluel.mp4"
 			},
 			{
 				"type": "image",
-				"url": "./assets/images/sophie-formulaire.jpg",
-				"description" : "Récupérer les données utilisateurs dans le JavaScript via des <strong>formulaires</strong>"
+				"url": "./assets/images/sophie-formulaire.jpg"
 			}
 		],
-		"description" : "",
+
+		"description": [
+			{
+				"lines": [
+					"Gérer les <strong>événements utilisateurs</strong> avec <strong>JavaScript</strong>",
+					"Programmer en utilisant les fondamentaux de <strong>JavaScript</strong>",
+					"Récupérer les données utilisateurs via des <strong>formulaires</strong>"
+				]
+			}
+		],
+
 		"link": ""
 	},
 	{
@@ -98,22 +125,30 @@
 		[
 			{
 				"type": "image",
-				"url": "./assets/images/router.jpg",
-				"description" : "Configurer la navigation entre les pages de l'application avec <nobr><strong>React Router</></nobr><br></br> Développer une interface web avec <strong> Sass</strong>"
+				"url": "./assets/images/router.jpg"
 			},
 			{
 				"type": "video",
-				"url": "./assets/videos/kasa.mp4",
-				"description" : "Mettre en œuvre des <strong><nobr>animations CSS</nobr></strong>"
-				
+				"url": "./assets/videos/kasa.mp4"
 			},
 			{
 				"type": "image",
-				"url": "./assets/images/kasa.jpg",
-				"description" : "Développer des éléments de l'interface d'un site web grâce à des <strong>composants React</strong>"
+				"url": "./assets/images/kasa.jpg"
 			}
 		],
-		"description" : "Initialiser une application avec <strong><nobr>Create React App</nobr></strong>",
+
+		"description": [
+			{
+				"lines": [
+					"Initialiser une application avec <strong><nobr>Create React App</nobr></strong>",
+					"Configurer la navigation entre les pages de l'application avec <nobr><strong>React Router</nobr></strong>",
+					"Développer une interface web avec <strong>Sass</strong>",
+                    "Mettre en œuvre des <strong><nobr>animations CSS</nobr></strong>",
+					"Développer des éléments de l'interface d'un site web grâce à des <strong>composants React</strong>"
+				]
+			}
+		],
+
 		"link": ""
 	},
 	{
@@ -124,22 +159,28 @@
 		[
 			{
 				"type": "image",
-				"url": "./assets/images/accessibilite.jpg",
-				"description" : "Remettre un <strong>rapport d'accessibilité<strong> détaillé"
+				"url": "./assets/images/accessibilite.jpg"
 			},
 			{
 				"type": "image",
-				"url": "./assets/images/comparatif.jpg",
-				"description" : "<strong>Optimiser la performance<strong> d'un site web"
+				"url": "./assets/images/comparatif.jpg"
 			},
-			
 			{
 				"type": "image",
-				"url": "./assets/images/snippet.jpg",
-				"description" : "utilisation de Lighthouse, audit Rich Snippet, wave"
+				"url": "./assets/images/snippet.jpg"
 			}
 		],
-		"description" : "",
+		
+		"description": [
+			{
+				"lines": [
+					"Remettre un <strong>rapport d'accessibilité<strong> détaillé",
+					"<strong>Optimiser la performance</strong> d'un site web",
+					"Utilisation de <strong>Lighthouse, audit Rich Snippet, Wave<strong>"
+				]
+			}
+		],
+
 		"link": ""
 	}
 ]}

@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import Layout from '../../layouts/Layout';
-import MediaWraper from '../../layouts/mediaWraper/mediaWrapper.jsx';
+import MediaWrapper from '../../layouts/mediaWraper/mediaWrapper.jsx';
 import realisationsData from '../../realisations.json';
 import './realisations.css';
 
@@ -37,11 +37,17 @@ const Realisations = () => {
                         isRealisationTargeted(realisation) && (
                             <div key={realisation.id}>
                                 <h2 dangerouslySetInnerHTML={{ __html: realisation.projectTitle }} />
-                                <MediaWraper mediaList={realisation.medias} />
+                                <MediaWrapper mediaList={realisation.medias} />
                                 <div>
-                                    <p dangerouslySetInnerHTML={{ __html: realisation.description }} />
+                                    {realisation.description[0]?.lines?.map((line, index, array) => (
+                                        <React.Fragment key={index}>
+                                            <p dangerouslySetInnerHTML={{ __html: line }} />
+                                            {index < array.length - 1 && <br />}
+                                        </React.Fragment>
+                                    ))}
                                 </div>
-                                <div>
+
+                                <div className="link">
                                     {realisation.link && (
                                         <p><a href={realisation.link} target='blank'>Voir le site</a></p>
                                     )}

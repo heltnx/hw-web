@@ -4,5 +4,13 @@
 
 .realisations p {
     text-align: center;
-    padding-bottom: 30px;
+    margin: auto;
+    margin-bottom: -10px;
+    width: 70%;
+    min-width: 360px;
+}
+
+
+.realisations .link {
+    padding: 30px;
 }
