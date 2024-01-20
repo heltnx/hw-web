@@ -187,6 +187,57 @@
 		  "Réalisation de <strong>tests fonctionnels</strong>"
 		],
 		"link": ""
+	  },
+	  {
+		"id": "9",
+		"projectTitle": " <strong>Planifiez le développement</strong> du site de votre client",
+		"anchor": "Gestion de projet, Trello, Kanban, Feedly",
+		"medias": [
+		  {
+			"type": "image",
+			"url": "./assets/images/qwenta.jpg"
+		  },
+		  {
+			"type": "image",
+			"url": "./assets/images/planning.jpg"
+		  },
+		  {
+			"type": "image",
+			"url": "./assets/images/technique.jpg"
+		  }
+		],
+		"description": [
+		  "<strong>Présenter la solution technique</strong>",
+		  "<strong>Rédiger les spécifications techniques</strong> d'un projet web à partir de besoins fonctionnels",
+		  "<strong>Découper des fonctionnalités</strong> en tâches pour préparer le développement",
+		  "Mettre en place une méthode de <strong>veille technologique</strong> avec Feedly",
+		  "Suivre le déroulement du projet grâce à l'outil de gestion de projet <strong>Trello</strong>",
+		  "Méthodologie <strong>agile Scrum</strong>, avec l'utilisation de l'outil <strong>Kanban Trello</strong> pour <strong>organiser les tâches</strong> et suivre l'avancement du projet.",
+		  "<strong>Découpage des User Stories</strong>"
+		],
+		"link": ""
+	  },
+	  {
+		"id": "10",
+		"projectTitle": " <strong>Créer et Publier</strong> votre portfolio de développeur",
+		"anchor": "Sites, Design, Github",
+		"medias": [
+		  {
+			"type": "image",
+			"url": "./assets/images/portefolio.jpg"
+		  },
+		  {
+			"type": "image",
+			"url": "./assets/images/webdesign.jpg"
+		  }
+		],
+		"description": [
+		  "Déployer un <strong>site</strong> statique <strong> en ligne avec Github</strong>",
+		  "J'ai également <strong>publié</strong> mon site de <strong>Web Designer</strong> avec <strong>hostinger</strong>, puis un autre sur <strong>ovh</strong>.",
+		  "Visitez la page de présentation de mes autres sites"
+
+		],
+		"link": "https://hwweb.fr/prestations/sites-internet/"
 	  }
 	]
   }
