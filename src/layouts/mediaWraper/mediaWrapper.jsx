@@ -5,7 +5,7 @@ import './mediaWrapper.css';
 
 const MediaWrapper = ({ mediaList }) => {
     // Vérifier si l'écran est de taille mobile
-    const isMobile = window.matchMedia('(max-width: 768px)').matches;
+    const isMobile = window.matchMedia('(max-width: 0px)').matches;
 
     return (
         // Conteneur principal pour les vidéos et images
