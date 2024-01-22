@@ -4,8 +4,6 @@ import './mediaWrapper.css';
 
 
 const MediaWrapper = ({ mediaList }) => {
-    // Vérifier si l'écran est de taille mobile
-    const isMobile = window.matchMedia('(max-width: 0px)').matches;
 
     return (
         // Conteneur principal pour les vidéos et images
@@ -18,7 +16,7 @@ const MediaWrapper = ({ mediaList }) => {
                     <div key={index} className="imageContain">
                         <img
                             // Utiliser une URL différente pour les appareils mobiles si non l'url du fichier json
-                            src={isMobile ? `/assets/images/mobile/${media.url.split('/').pop()}` : media.url}
+                            src={media.url}
                             alt={media.description}
                         />
                     </div>
