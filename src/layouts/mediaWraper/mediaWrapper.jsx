@@ -15,7 +15,6 @@ const MediaWrapper = ({ mediaList }) => {
                     // Si c'est un élément React (image), le rendre tel quel
                     <div key={index} className="imageContain">
                         <img
-                            // Utiliser une URL différente pour les appareils mobiles si non l'url du fichier json
                             src={media.url}
                             alt={media.description}
                         />
