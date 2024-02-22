@@ -9,7 +9,7 @@
     min-width: 600px;
     width: 50%;
     flex-grow: 1;
-    border: 5px solid #fde4bc;
+    border: 3px solid #ffffff;
 
 }
 
@@ -52,7 +52,7 @@
 
 .pagination {
 
-    background-color: #fde1b4;
+    background-color: #ffffff;
     width: max-content;
     font-weight: 400;
     color: rgb(111, 115, 128);

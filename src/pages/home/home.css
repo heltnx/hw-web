@@ -40,14 +40,6 @@
     font-size: 50px;
 }
 
-/*---- mes realisations ---*/
-.mesRealisations {
-    background-image: url(../../assets/images/banner.jpg);
-    margin-top: 40px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-}
 
 /* slider */
 .slider {
