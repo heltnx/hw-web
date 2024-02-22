@@ -4,7 +4,7 @@
       {
         "id": "01",
         "nom": "HTML & CSS",
-        "icone": "./assets/icons/css-icon.png",
+        "icone": "./assets/icons/html.png",
         "description": [
           "Développer une interface web",
           "Respect des maquettes Figma",
@@ -14,7 +14,7 @@
       {
         "id": "02",
         "nom": "Sass",
-        "icone": "./assets/icons/sass-icon.png",
+        "icone": "./assets/icons/sass.png",
         "description": [
           "Développer une interface web avec Sass",
           "Mettre en œuvre des animations CSS"
@@ -23,7 +23,7 @@
       {
         "id": "03",
         "nom": "JavaScript",
-        "icone": "./assets/icons/javascript.png",
+        "icone": "./assets/icons/js.png",
         "description":[
           "Programmer un carrousel avec défilement infini, en utilisant les fondamentaux de JavaScript",
           "Gérer les événements utilisateurs avec JavaScript",
@@ -34,7 +34,7 @@
       {
         "id": "04",
         "nom": "React",
-        "icone": "./assets/icons/react-icon.png",
+        "icone": "./assets/icons/react.png",
         "description":[
           "Initialiser une application avec Create React App",
           "Configurer la navigation entre les pages de l'application avec React Router",
@@ -45,7 +45,7 @@
       {
         "id": "05",
         "nom": "Redux",
-        "icone": "./assets/icons/redux-icon.png",
+        "icone": "./assets/icons/redux.png",
         "description": [
           "Afficher les données du back end sur l'interface via des appels API",
           "Configurer des routes API pour la communication client / serveur",
@@ -55,7 +55,7 @@
       {
         "id": "06",
         "nom": "Gestion de projet",
-        "icone": "./assets/icons/gestion-icon.png",
+        "icone": "./assets/icons/gestion.png",
         "description":[
           "Présenter la solution technique",
           "Rédiger les spécifications techniques d'un projet web à partir de besoins fonctionnels",
@@ -69,7 +69,7 @@
       {
         "id": "07",
         "nom": "SEO",
-        "icone": "./assets/icons/seo-icon.png",
+        "icone": "./assets/icons/seo.png",
         "description":[
           "Optimiser la performance d'un site web",
           "remettre un rapport d’optimisation détaillé",
@@ -80,7 +80,7 @@
       {
         "id": "08",
         "nom": "Debug",
-        "icone": "./assets/icons/debug-icon.png",
+        "icone": "./assets/icons/debug.png",
         "description":[
           "Débugger un site web grâce aux Chrome DevTools",
           "Rédiger un cahier de recette pour tester un site",
@@ -91,7 +91,7 @@
       {
         "id": "09",
         "nom": "Sites web & design",
-        "icone": "./assets/icons/site-icon.png",
+        "icone": "./assets/icons/site.png",
         "description":[
           "Déployer un site statique en ligne",
           "https://hwweb.fr/prestations/sites-internet/"

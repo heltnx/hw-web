@@ -2,6 +2,7 @@
 import React, { useEffect } from 'react';
 import Layout from '../../layouts/Layout';
 import CompetencesList from '../../layouts/competencesList/competencesList';
+import Skills from '../../components/skill/skill';
 
 
 const Competences = () => {
@@ -13,12 +14,14 @@ const Competences = () => {
     }, []);
 
     return (
-        <Layout>
-            <div >
-                <h1>Compétences</h1>
+        <Layout >
+            <div className="competences-layout">
+                <div >
+                    <h1>Compétences</h1>
+                </div>
+                <CompetencesList />
+                <Skills />
             </div>
-            <CompetencesList />
-
         </Layout>
     );
 };
