@@ -62,6 +62,7 @@
     background-color: rgb(255 255 255 /85%);
     flex-grow: 1;
     padding: 20px;
+    margin-left: 10px;
 }
 
 .textRealisation button {
