@@ -1,0 +1,35 @@
+.skills {
+    padding-bottom: 50px;
+}
+
+.skill {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill-name {
+    margin: 0 10px;
+}
+
+.skill-bar {
+    width: 200px;
+    /* Largeur de la barre de compétences */
+    height: 19px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    align-self: flex-end;
+}
+
+.skill-level {
+    height: 100%;
+    background-color: #eeddb4;
+    /* Couleur de la barre de compétences (orange) */
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out;
+}
+
+.skill img {
+    height: 25px;
+}

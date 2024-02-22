@@ -6,6 +6,7 @@ import './home.css'
 import Button from '../../components/button/Button.jsx'
 import silhouette from '../../assets/images/silhouette.png'
 import Slideshow from '../../components/slideswhow/Slideshow.jsx';
+import Skill from '../../components/skill/skill.jsx';
 
 const Home = () => {
 
@@ -63,7 +64,8 @@ const Home = () => {
 
                     <div className='competencesPart'>
                         <div>
-                            <img src={process.env.PUBLIC_URL + "/assets/images/progress.png"} alt="competences progression" />
+                            <Skill />
+
 
                         </div>
                         <p>Vous préférez le détail des compétences évaluées, avec un acces aux réalisations qui les utilisent, accedez à la page:</p>
